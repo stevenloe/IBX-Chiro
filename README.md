@@ -4,6 +4,8 @@
 * [Sitemap](#sitemap)
 * [Wireframes](#wireframes)
 * [Designs](#designs)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
 
 ### General info
@@ -20,3 +22,20 @@ A jamstack site for Inner Banks Chiropractic
 ![](wireframes/ibc-desktop-wireframe.png)
 
 ### Designs
+![](designs/home.jpg)
+![](designs/about.jpg)
+![](designs/schedule.jpg)
+![](designs/contact.jpg)
+
+## Technologies
+Project is created with:
+* Eleventy version: 0.11.1
+	
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../site
+$ npm install
+$ npm start
+```
