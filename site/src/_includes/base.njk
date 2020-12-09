@@ -1,5 +1,129 @@
-
+---
+title: Inner Banks Chiropractic
+---
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/site.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <style>
+    :root {
+      --hero-bg-color: #4D8356;
+      --hero-img: url(../images/bonsai-hand.jpg);
+
+      --body-bg-img: url(../images/pexels-dominika-roseclay-no-background.png);
+      --body-bg-position: bottom left;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="top-branding">
+      <img src="images/temp-logo.png" alt="" srcset="">
+    </div>
+    <nav>
+      <div class="cancel-icon"><span class="fas fa-times"></span></div>
+      <div class="menu-icon"><span class="fas fa-bars"></span></div>
+      <div class="logo">Inner Banks Chiropractic</div>
+      <div class="nav-items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Forms</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Sí, hablo Español</a></li>
+      </div>
+      <div class="search-icon"><span class="fas fa-search"></span></div>
+      
+      <form action="#">
+        <input type="search" class="search-data" placeholder="Search" required>
+        <button type="submit" class="fas fa-search"></button>
+      </form>
+    </nav>
+    <div class="hero">
+      <heading class="owner">
+        <div class="name">Shari Richard</div>
+        <div class="title">CHIROPRACTOR</div>
+      </heading>
+  
+      <heading class="cta">
+        <h1>Good health requires balance.</h1>
+        <a class="button-link home-cta" href="#">BOOK  APPOINTMENT</a>
+      </heading>
+    </div>
+
+    <main>
+      <article>
+        <h1 class="alt-headline">Good health requires balance.</h1>
+        <p>Everyone deserves good health. Each of us has obstacles that prevent us from attaining optimal health. My
+          goal is to address each of these challenges and help my patients find long lasting solutions to their pain,
+          and relief from the stresses that perpetuate the physical ailments that they face. </p>
+        
+        <div class="feature">
+          <h2>COVID-19</h2>
+          <p> Yes we are open! Safe and here for you. As we continue to respond to COVID-19, I am taking measures to
+            protect our patients and our community. At this point in time, I am treating patients ONE at a time giving
+            ample time between patients for proper disinfecting techniques. Please enter using a mask if you are able.
+          </p>
+          <p>If you feel at risk of exposure or you are concerned with new symptoms, please contact me. I am here to
+            help you navigate this difficult time. The physical structure of my office provides safety measures that
+            prevent unnecessary patient contact when there is the occasion for overlap.</p>
+        </div>
+        <p>I am currently accepting New Patients! Inner Banks Chiropractic strives to be an environment that facilitates
+          wellness through comfort and compassion.</p>
+        
+      </article>
+    </main>
+
+    <footer>
+      <address>
+        <div>Inner Banks Chiropractic</div>
+        <div>711 Broad Street</div>
+        <div>Oriental, NC 28571</div>
+        <div>(252) 497-5910 </div>
+      </address>
+      <p class="byline">Website designed & developed by <a href="http://stevenloe.com">Steven Loe</a> .</p>
+      <a class="colophon" href="#">Colophon</a>
+    </footer>
+
+  </div>
+    <script>
+      const menuBtn = document.querySelector(".menu-icon");
+      const searchBtn = document.querySelector(".search-icon");
+      const cancelBtn = document.querySelector(".cancel-icon");
+      const items = document.querySelector(".nav-items");
+      const form = document.querySelector("form");
+      menuBtn.onclick = () => {
+        items.classList.add("active");
+        menuBtn.classList.add("hide");
+        searchBtn.classList.add("hide");
+        cancelBtn.classList.add("show");
+      }
+      cancelBtn.onclick = () => {
+        items.classList.remove("active");
+        menuBtn.classList.remove("hide");
+        searchBtn.classList.remove("hide");
+        cancelBtn.classList.remove("show");
+        form.classList.remove("active");
+        cancelBtn.style.color = "#000";
+      }
+      searchBtn.onclick = () => {
+        form.classList.add("active");
+        searchBtn.classList.add("hide");
+        cancelBtn.classList.add("show");
+      }
+    </script>
+  
+</body>
+
+</html>
+{# <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -23,5 +147,5 @@
   <header><a href="/"> Home</a> | <a href="/about">About</a></header>
   {{ content | safe }}
 </body>
-</html>
+</html> #}
 
