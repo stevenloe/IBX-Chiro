@@ -85,10 +85,10 @@ body {
   grid-row: 3;
   display: grid;
   background-image: var(--hero-img);
-  background-color: var(--hero-bg-color);
+  /* background-color: var(--hero-bg-color); */
   background-repeat: no-repeat;
   /* background-size: calc(100vw - 6.4em) auto; */
-  height: calc((100vw - 120px) * 0.67);
+  /* height: calc((100vw - 120px) * 0.67); */
   padding: 3% 5%;
   grid-gap: 7%;
   grid-template-columns: 1fr 1fr;
@@ -379,7 +379,7 @@ footer>.colophon {
     margin-top: 45px;
     grid-row: 2;
     background-size: 100vw auto;
-    height: calc(100vw * 0.673218673218673);
+    /* height: calc(100vw * 0.67); */
   }
   .content {
     grid-row: 3;
