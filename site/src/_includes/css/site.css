@@ -386,7 +386,7 @@ footer>.colophon {
     margin-top: 45px;
     grid-row: 2;
     background-size: 100vw auto;
-    /* height: calc(100vw * 0.67); */
+    height: calc(100vw * 0.67);
   }
   .content {
     grid-row: 3;
