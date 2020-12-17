@@ -92,7 +92,6 @@ body {
   padding: 3% 5%;
   grid-gap: 7%;
   grid-template-columns: 1fr 1fr;
-  background-attachment: scroll;
 }
 
 .owner {
