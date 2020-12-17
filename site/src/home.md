@@ -5,7 +5,6 @@ permalink: /
 heroImg: /images/bonsai-hand.jpg
 bodyImg: /images/pexels-dominika-roseclay-no-background.png
 bodyImgPosition: bottom left
-someHtml: "<h1> some html <h1/>"
 ---
 Everyone deserves good health. Each of us has obstacles that prevent us from attaining optimal health. My goal is to address each of these challenges and help my patients find long lasting solutions to their pain, and relief from the stresses that perpetuate the physical ailments that they face. 
 

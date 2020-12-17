@@ -84,13 +84,11 @@ body {
   grid-column: 1 / -1;
   grid-row: 3;
   display: grid;
-
-  background-color: var(--hero-bg-color);
   background-image: var(--hero-img);
+  background-color: var(--hero-bg-color);
   background-repeat: no-repeat;
   background-size: calc(100vw - 6.4em) auto;
   height: calc((100vw - 120px) * 0.67);
-  /* border: solid 1px red; */
   padding: 3% 5%;
   grid-gap: 7%;
   grid-template-columns: 1fr 1fr;
