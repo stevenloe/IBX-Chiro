@@ -10,13 +10,13 @@ title: Inner Banks Chiropractic
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <style>
-    :root {
-      --body-bg-img: url({{ bodyImg }});
-      --body-bg-position: {{ bodyImgPosition }};
+    body {
+      background: url({{ bodyImg }});
+      background-position: {{ bodyImgPosition }};
     }
 
     .hero {
-      background: white url(images/bonsai-hand.jpg); 
+      background: white url({{ heroImg }}); 
      }
   </style>
   <style>{% include "css/site.css" %}</style>
