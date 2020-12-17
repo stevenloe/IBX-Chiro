@@ -95,7 +95,7 @@ body {
 
   min-height: 200px;
   background: white url(images/bonsai-hand.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   background-position: bottom right;
   background-repeat: no-repeat; 
   background-size: calc(100vw - 6.4em) auto; 
