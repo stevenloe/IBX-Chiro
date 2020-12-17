@@ -9,6 +9,5 @@ bodyImgPosition: bottom left
 
 To schedule and appointment, you can book a time online using our handy schedule widget:
 
-# [ schedule widget goes here ]
-
+<div style="width:300px; height:250px; background: #ddd;padding:1em;"><h1>Scheule widget goes here </h1></div>
 Or you can call me at (252) 497-5910

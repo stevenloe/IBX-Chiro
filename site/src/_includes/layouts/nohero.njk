@@ -14,9 +14,7 @@ title: Inner Banks Chiropractic
       background-position: {{ bodyImgPosition }};
     }
 
-    .hero {
-      background: white url({{ heroImg }}); 
-     }
+  
   </style>
   <style>{% include "css/site.css" %}</style>
 </head>
@@ -25,15 +23,6 @@ title: Inner Banks Chiropractic
   <div class="wrapper">
     {% include "components/branding.njk" %}
     {% include "components/navbar.njk" %}
-
-    <div class="hero">
-      {% include "components/owner.njk" %}
-
-      <heading class="cta">
-        <h1>Good health requires balance.</h1>
-        <a class="button-link home-cta" href="#">BOOK  APPOINTMENT</a>
-      </heading>
-    </div>
 
     <main>
       {{ content | safe }}

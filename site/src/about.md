@@ -2,7 +2,7 @@
 title:  About Inner Banks Chiropractic
 layout: layouts/page.njk
 heroText: About Me
-heroImg: /images/go.png
+heroImg: /images/hero-about.png
 bodyImg: /images/bg-about.jpg
 bodyImgPosition: bottom right
 ---
@@ -50,7 +50,9 @@ I was born in Saratoga Springs NY but I spent most of my youth in Connecticut.  
 
 At the same time, I found that I was becoming more interested in non-traditional medial care. I’m fascinated with how the human body works.  I can completely “geek out” about anatomy, biomechanics, neurology, gait analysis, orthopedics and the healing process. I enjoy reading up on the latest research on chiropractic care, manual medicine, pain management, neurology and public health initiatives.  
 I received my Doctorate of Chiropractic from National College of Chiropractic, Lombard IL in 1997, my Bachelor of Science in Human Biology, 1996. 
-I’ve worked as a chiropractor or instructor of chiropractic in Chicago,  Long Beach, CA, and Hartford, CT.  I speak Spanish fluently.
+I’ve worked as a chiropractor or instructor of chiropractic in Chicago, Long Beach, CA, and Hartford, CT. For more, [see my CV.](/cv/) I speak Spanish fluently.
 
 I have a longstanding connection to Pamlico county. I have family here and began visiting the area in 2009.  I’ve always enjoyed the diverse group of people who live here. The peacefulness and beauty of the area have long been a welcome break from city life. Like of many people I meet in the area, there came a point where my family and I felt it was time for a change. We moved to Oriental in 2019.
-In my personal time, I often read or watch a movie with my family to relax. I love to fish and spend time in the outdoors and cook. I enjoy boating with my family and generally just enjoying all that Pamlico County has to offer..
+In my personal time, I often read or watch a movie with my family to relax. I love to fish and spend time in the outdoors and cook. I enjoy boating with my family and generally just enjoying all that Pamlico County has to offer.
+
+<br>
