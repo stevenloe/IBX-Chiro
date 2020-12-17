@@ -99,7 +99,10 @@ body {
   background-position: bottom right;
   background-repeat: no-repeat; 
   background-size: calc(100vw - 6.4em) auto; 
-  height: calc((100vw - 120px) * 0.67)
+  height: calc((100vw - 120px) * 0.67);
+  padding: 3% 5%;
+  grid-gap: 7%;
+  grid-template-columns: 1fr 1fr;
   
   /* padding: 50px;
   display: flex;
