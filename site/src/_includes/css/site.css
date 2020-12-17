@@ -98,6 +98,7 @@ body {
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat; 
+  background-size: calc(100vw - 6.4em) auto; 
   /* padding: 50px;
   display: flex;
   flex-direction: column;
