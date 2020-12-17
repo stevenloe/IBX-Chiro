@@ -2,7 +2,7 @@
 title:  Inner Banks Chiropractic
 layout: layouts/home.njk
 permalink: /
-heroImg: /images/tree.jpg
+heroImg: /images/bonsai-hand.jpg
 bodyImg: /images/pexels-dominika-roseclay-no-background.png
 bodyImgPosition: bottom left
 ---
