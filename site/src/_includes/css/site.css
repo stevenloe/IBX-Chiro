@@ -93,8 +93,8 @@ body {
   grid-gap: 7%;
   grid-template-columns: 1fr 1fr; */
 
-  min-height: 400px;
-  background: white url(images/tree.jpg);
+  min-height: 200px;
+  background: white url(images/bonsai-hand.jpg);
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat; 
