@@ -2,7 +2,7 @@
 title:  About Inner Banks Chiropractic
 layout: layouts/page.njk
 heroText: About Me
-heroImg: /images/hero-about.png
+heroImg: /images/go.png
 bodyImg: /images/bg-about.jpg
 bodyImgPosition: bottom right
 ---
