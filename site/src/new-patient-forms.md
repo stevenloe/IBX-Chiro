@@ -1,17 +1,29 @@
 ---
 title:  Inner Banks Chiropractic - Forms
 layout: layouts/page.njk
-heroImg: /images/bonsai-hand.jpg
-bodyImg: /images/pexels-dominika-roseclay-no-background.png
-bodyImgPosition: bottom left
+heroImg: /images/hero-forms.jpg
+bodyImg: /images/leaf-right.png
+bodyImgPosition: bottom right
 ---
-Everyone deserves good health. Each of us has obstacles that prevent us from attaining optimal health. My goal is to address each of these challenges and help my patients find long lasting solutions to their pain, and relief from the stresses that perpetuate the physical ailments that they face. 
+Prior to your first visit, please complete these forms
 
+<div> 
 
-> ## COVID-19
-> Yes we are open! Safe and here for you. As we continue to respond to COVID-19, I am taking measures to protect our patients and our community. At this point in time, I am treating patients ONE at a time giving ample time between patients for proper disinfecting techniques. Please enter using a mask if you are able.
-> 
-> If you feel at risk of exposure or you are concerned with new symptoms, please contact me. I am here to help you navigate this difficult time. The physical structure of my office provides safety measures that prevent unnecessary patient contact when there is the occasion for overlap.
+# hi there
 
-I am currently accepting New Patients! Inner Banks Chiropractic strives to be an environment that facilitates wellness through comfort and compassion.
+this is text
+
+</div>
+
+Patient Information   
+Complete patient info form online or
+download .pdf
+
+Patient History   
+Complete patient history form online or
+download .pdf
+
+HIPPA   
+Complete HIPPA form online or
+download .pdf
 

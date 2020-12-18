@@ -1,17 +1,27 @@
 ---
 title:  Inner Banks Chiropractic - contact
 layout: layouts/page.njk
-heroImg: /images/bonsai-hand.jpg
+heroImg: /images/hero-contact.jpg
 bodyImg: /images/pexels-dominika-roseclay-no-background.png
 bodyImgPosition: bottom left
 ---
-Everyone deserves good health. Each of us has obstacles that prevent us from attaining optimal health. My goal is to address each of these challenges and help my patients find long lasting solutions to their pain, and relief from the stresses that perpetuate the physical ailments that they face. 
+Shari L. Richard, DC
+
+(Facebook Icon)   (Yelp Icon)  (Linkedin Icon)
+
+Inner Banks Chiropractic   
+711 Broad Street   
+Oriental, NC 28571   
+(252) 497-5910   
+
+[ Contact Us button ] —> displays the contact form
+
+Office Hours  (what should these be?)
+M by appointment| T 9:00am to 3:00pm | W 9:00am to 5:00pm | F 9:00am to 3:00pm| S & Su by appointment for emergencies
 
 
-> ## COVID-19
-> Yes we are open! Safe and here for you. As we continue to respond to COVID-19, I am taking measures to protect our patients and our community. At this point in time, I am treating patients ONE at a time giving ample time between patients for proper disinfecting techniques. Please enter using a mask if you are able.
-> 
-> If you feel at risk of exposure or you are concerned with new symptoms, please contact me. I am here to help you navigate this difficult time. The physical structure of my office provides safety measures that prevent unnecessary patient contact when there is the occasion for overlap.
 
-I am currently accepting New Patients! Inner Banks Chiropractic strives to be an environment that facilitates wellness through comfort and compassion.
 
+[ Schedule Now  ] —> Link to schedule Page
+
+<img src="/images/map.jpg" alt="map of Inner Banks Chiropractic" style="width:100%">
