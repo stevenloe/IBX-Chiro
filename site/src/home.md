@@ -1,9 +1,10 @@
 ---
+layout: layouts/home2.njk
 title:  Inner Banks Chiropractic
-layout: layouts/home.njk
-permalink: /
 heroImg: /images/hero-home.jpg
+heroText: Good health requires balance.
 bodyImg: /images/pexels-dominika-roseclay-no-background.png
+heroBgColor: "#74B180"
 bodyImgPosition: bottom left
 ---
 Everyone deserves good health. Each of us has obstacles that prevent us from attaining optimal health. My goal is to address each of these challenges and help my patients find long lasting solutions to their pain, and relief from the stresses that perpetuate the physical ailments that they face. 

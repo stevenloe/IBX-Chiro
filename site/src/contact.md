@@ -1,10 +1,13 @@
 ---
-title:  Inner Banks Chiropractic - contact
 layout: layouts/page.njk
+title:  Contact Me
 heroImg: /images/hero-contact.jpg
-bodyImg: /images/pexels-dominika-roseclay-no-background.png
-bodyImgPosition: bottom left
+heroText: Contact Me
+bodyImg: /images/bg-about.jpg
+heroBgColor: "#323A27"
+bodyImgPosition: bottom right
 ---
+
 Shari L. Richard, DC
 
 (Facebook Icon)   (Yelp Icon)  (Linkedin Icon)

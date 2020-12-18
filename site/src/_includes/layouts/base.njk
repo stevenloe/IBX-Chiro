@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  {% block customstyles %}
+
+  {% endblock %}
+
+  <style>{% include "css/site.css" %}</style>
+</head>
+
+<body>
+  <div class="wrapper">
+    {% include "components/branding.njk" %}
+    {% include "components/navbar.njk" %}
+
+    {% block hero %}
+
+    {% endblock %}
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    {% include "components/footer.njk" %}
+
+  </div>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-icon");
+    const searchBtn = document.querySelector(".search-icon");
+    const cancelBtn = document.querySelector(".cancel-icon");
+    const items = document.querySelector(".nav-items");
+    const form = document.querySelector("form");
+    menuBtn.onclick = () => {
+      items.classList.add("active");
+      menuBtn.classList.add("hide");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+    cancelBtn.onclick = () => {
+      items.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      searchBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      form.classList.remove("active");
+      cancelBtn.style.color = "#000";
+    }
+    searchBtn.onclick = () => {
+      form.classList.add("active");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+}
+
+  </script>
+  
+</body>
+
+</html>
+
+

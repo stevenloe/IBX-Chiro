@@ -1,6 +1,6 @@
 ---
 title:  Shari Richard's CV
-layout: layouts/nohero.njk
+layout: layouts/base.njk
 bodyImg: /images/bg-about.jpg
 bodyImgPosition: bottom right
 ---

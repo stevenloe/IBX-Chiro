@@ -1,9 +1,11 @@
 ---
-title:  Inner Banks Chiropractic - contact
 layout: layouts/page.njk
+title:  Sí, hablo español
 heroImg: /images/hero-spanish.jpg
-bodyImg: /images/pexels-dominika-roseclay-no-background.png
-bodyImgPosition: bottom left
+heroText: Sí, hablo español
+bodyImg: /images/bg-about.jpg
+heroBgColor: "#658157"
+bodyImgPosition: bottom right
 ---
 I have been serving the Spanish speaking community since...
 

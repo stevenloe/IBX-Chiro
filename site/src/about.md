@@ -1,12 +1,12 @@
 ---
-title:  About Inner Banks Chiropractic
 layout: layouts/page.njk
-heroText: About Me
+title:  About Me
 heroImg: /images/hero-about.png
+heroText: About Me
 bodyImg: /images/bg-about.jpg
+heroBgColor: "#8F8F8F"
 bodyImgPosition: bottom right
 ---
-
 
 ## I love helping people.
 

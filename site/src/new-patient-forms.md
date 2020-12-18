@@ -1,19 +1,15 @@
 ---
-title:  Inner Banks Chiropractic - Forms
 layout: layouts/page.njk
+title:  New Patient Forms
+heroText: Forms
 heroImg: /images/hero-forms.jpg
-bodyImg: /images/leaf-right.png
-bodyImgPosition: bottom right
+heroBgColor: "#79A567"
+bodyImg: /images/pexels-dominika-roseclay-no-background.png
+bodyImgPosition: bottom left
 ---
-Prior to your first visit, please complete these forms
 
-<div> 
+Prior to your first visit, please fill out these new patient forms. They’ll help me get up to speed quickly on you and medical history. You can either fill out the forms online or download, print, and fill them out by hand.
 
-# hi there
-
-this is text
-
-</div>
 
 Patient Information   
 Complete patient info form online or
