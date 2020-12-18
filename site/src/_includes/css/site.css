@@ -83,29 +83,13 @@ body {
   grid-column: 1 / -1;
   grid-row: 3;
   display: grid;
-  /* background-repeat: no-repeat; */
-  /* background-size: calc(100vw - 6.4em) auto; */
-  /* height: calc((100vw - 120px) * 0.67); */
-  /* padding: 3% 5%;
-  grid-gap: 7%;
-  grid-template-columns: 1fr 1fr; */
-
   min-height: 200px;
- 
-  /* background-size: cover; */
-  /* background-position: bottom right; */
   background-repeat: no-repeat; 
-  background-size: calc(100vw - 6.4em) auto; 
-  height: calc((100vw - 120px) * 0.67);
+  background-size: contain;
+  height: calc((100vw - 120px) * {{ heroImgHeight }});
   padding: 3% 5%;
   grid-gap: 7%;
   grid-template-columns: 1fr 1fr;
-  
-  /* padding: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center; */
 }
 
 .owner {
@@ -380,8 +364,8 @@ footer>.colophon {
   .hero {
     margin-top: 45px;
     grid-row: 2;
-    background-size: 100vw auto;
-    height: calc(100vw * 0.67);
+    background-size: calc(100vw - 6.4em) auto;
+    height: calc(100vw * {{ heroImgHeight }}); 
   }
   .content {
     grid-row: 3;

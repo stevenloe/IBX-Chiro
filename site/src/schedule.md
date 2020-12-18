@@ -6,6 +6,7 @@ heroImg: /images/hero-schedule.jpg
 heroBgColor: "#406C1D"
 bodyImg: /images/pexels-dominika-roseclay-no-background.png
 bodyImgPosition: bottom left
+heroImgHeight: 0.334
 ---
 
 
