@@ -2,7 +2,7 @@
 layout: layouts/home2.njk
 permalink: /
 title:  Inner Banks Chiropractic
-heroImg: /images/hero-home.jpg
+heroImg: "/images/hero-home.jpg"
 heroText: Good health requires balance.
 bodyImg: /images/pexels-dominika-roseclay-no-background.png
 heroBgColor: "#74B180"
