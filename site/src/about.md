@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title:  About Me
-heroImg: /images/hero-about.png
+heroImg: /images/hero-about-hawthorn-branch-1000px.jpg
 heroText: About Me
 bodyImg: /images/bg-about.jpg
 heroBgColor: "#8F8F8F"
