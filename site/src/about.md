@@ -6,7 +6,7 @@ heroText: About Me
 bodyImg: /images/bg-about.jpg
 heroBgColor: "#8F8F8F"
 bodyImgPosition: bottom right
-heroImgHeight: 0.666
+heroImgHeight: 0.667
 ---
 
 ## I love helping people.
