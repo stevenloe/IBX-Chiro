@@ -57,7 +57,7 @@ body {
 
 .wrapper {
   margin: 1em 3.2em 0 3.2em;
-  border: solid 5px hotpink;
+  /* border: solid 5px hotpink; */
 }
 
 
@@ -283,7 +283,7 @@ main {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
   grid-template-rows: auto auto auto auto auto;
-  border: solid 5px green;
+  /* border: solid 5px green; */
 }
 
 main>h2, main>p, main>img {
