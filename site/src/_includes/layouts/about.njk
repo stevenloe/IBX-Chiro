@@ -13,12 +13,11 @@
 {% endblock %}
 
 {% block hero %}
-  <div class="hero">
+  <div class="hero two-columns">
     {% include "components/owner.njk" %}
 
     <heading class="cta">
-      <h1>{{ heroText }}</h1>
-      <a class="button-link home-cta" href="/schedule/">BOOK  APPOINTMENT</a>
+      <h1 class="pad-top" >{{ heroText }}</h1>
     </heading>
   </div>
 {% endblock %}

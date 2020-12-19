@@ -1,3 +1,4 @@
+
 {% extends "layouts/base.njk" %}
 {% block customstyles %}
 <style>
@@ -13,12 +14,12 @@
 {% endblock %}
 
 {% block hero %}
-  <div class="hero">
+  <div class="hero center-heading">
     {% include "components/owner.njk" %}
 
-    <heading class="cta">
+    <div class="cta text-to-top">
       <h1>{{ heroText }}</h1>
- 
-    </heading>
+    </div>
+      
   </div>
 {% endblock %}

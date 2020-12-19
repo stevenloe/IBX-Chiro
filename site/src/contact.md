@@ -7,6 +7,7 @@ bodyImg: /images/bg-about.jpg
 heroBgColor: "#323A27"
 bodyImgPosition: bottom right
 heroImgHeight: 0.334
+
 ---
 
 Shari L. Richard, DC

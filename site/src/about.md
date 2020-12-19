@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/about.njk
 title:  About Me
 heroImg: /images/hero-about-hawthorn-branch-1000px.jpg
 heroText: About Me

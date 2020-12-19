@@ -83,19 +83,20 @@ body {
   grid-column: 1 / -1;
   grid-row: 3;
   display: grid;
-
   background-repeat: no-repeat; 
   background-size: calc(100vw - 6.4em) auto; 
   height: calc((100vw - 120px) * {{ heroImgHeight }});
   padding: 3% 5%;
   grid-gap: 7%;
+}
+
+.center-heading {
+  grid-template-rows: 1fr 2fr;
+}
+
+.two-columns {
   grid-template-columns: 1fr 1fr;
-  
-  /* padding: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center; */
+  grid-gap: 9%;
 }
 
 .owner {
@@ -107,7 +108,6 @@ body {
 
 .owner * {
   color: #fff;
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
 .owner>.name {
@@ -128,21 +128,30 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  /* border:solid 1px orange; */
   padding-top: 1em;
+}
+
+.pad-top {
+  padding-top: 120%;
+
 }
 
 
 .cta h1 {
   font-size: 2.8em;
   font-family: forum, serif;
-  text-align: center;
   font-weight: 100;
   color: white;
   text-align: center;
   letter-spacing: 0.01em;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
   line-height: 1.12;
+
+}
+
+.text-to-top {
+  align-content: start;
+  padding:0;
 }
 
 .hero .button-link {

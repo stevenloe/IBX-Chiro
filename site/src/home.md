@@ -1,5 +1,5 @@
 ---
-layout: layouts/home2.njk
+layout: layouts/home.njk
 permalink: /
 title:  Inner Banks Chiropractic
 heroImg: /images/hero-home-bonsai-flip.png
