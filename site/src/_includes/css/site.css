@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Avenir LT Std';
-  src: url('../fonts/AvenirLTStd-Light.woff2') format('woff2'),
-      url('../fonts/AvenirLTStd-Light.woff') format('woff');
+  src: url('../fonts/AvenirLTStd-Light.woff2') format('woff2'), url('../fonts/AvenirLTStd-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -9,8 +8,7 @@
 
 @font-face {
   font-family: 'Forum';
-  src: url('../fonts/Forum.woff2') format('woff2'),
-      url('../fonts/Forum.woff') format('woff');
+  src: url('../fonts/Forum.woff2') format('woff2'), url('../fonts/Forum.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -55,17 +53,14 @@ body {
   line-height: 1.6;
   color: #444;
   background-repeat: no-repeat;
-
-  /* border: solid 2px red; */
 }
 
 .wrapper {
   margin: 1em 3.2em 0 3.2em;
-  display: grid;
-  grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
-  grid-template-rows: auto auto auto auto auto;
-  /* border: solid 2px lime; */
+  border: solid 5px hotpink;
 }
+
+
 
 .top-branding {
   grid-column: 1 / -1;
@@ -83,8 +78,8 @@ body {
   grid-column: 1 / -1;
   grid-row: 3;
   display: grid;
-  background-repeat: no-repeat; 
-  background-size: calc(100vw - 6.4em) auto; 
+  background-repeat: no-repeat;
+  background-size: calc(100vw - 6.4em) auto;
   height: calc((100vw - 120px) * {{ heroImgHeight }});
   padding: 3% 5%;
   grid-gap: 7%;
@@ -133,9 +128,7 @@ body {
 
 .pad-top {
   padding-top: 120%;
-
 }
-
 
 .cta h1 {
   font-size: 2.8em;
@@ -146,12 +139,11 @@ body {
   letter-spacing: 0.01em;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
   line-height: 1.12;
-
 }
 
 .text-to-top {
   align-content: start;
-  padding:0;
+  padding: 0;
 }
 
 .hero .button-link {
@@ -223,6 +215,7 @@ nav .nav-items li a:hover {
   color: green;
   text-decoration: underline;
 }
+
 nav .nav-items li a:active {
   color: green;
   text-decoration: underline;
@@ -284,37 +277,69 @@ nav .menu-icon, nav .cancel-icon, nav .search-icon {
 
 /* Main begins */
 
+  
 main {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
+  grid-template-rows: auto auto auto auto auto;
+  border: solid 5px green;
+}
+
+main>h2, main>p, main>img {
   grid-column: 2;
-  grid-row: 4;
-  padding-top: 1.5em;
-  text-align: left;
 }
 
-main .alt-headline {
-  display: none;
-}
-
-blockquote {
-  margin: 1.5em 0;
+main>blockquote {
+  grid-column: 2 / 4;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   background: #DDE1D6;
-  padding: 1em 1.5em;
-  color: #222;
 }
 
-blockquote>p:first-of-type {
-  margin-top: 0;
+main>blockquote>blockquote {
+  grid-column: 1 /1;
+  display: block;
+  padding: 1.5em;
+}
+
+main>blockquote>blockquote>p {
+  margin:0;
+  padding:0;
+}
+
+.feature-img-1 {
+  background: #F1F3F5 url(/images/elina-sitnikova.png);
+  background-size: cover;
+}
+
+.feature-img-2 {
+  background: #666A49 url(/images/pexels-nicollazzi-xiong.png);
+  background-size: cover;
+  background-position: left;
+}
+
+main>.greenbox {
+  grid-column: 2 / 3;
+  padding: 1.5em 1.5em 1em 1.5em;
+  background: #DDE1D6;
 }
 
 /* Main ends */
 
 /*  Footer begins */
 
+.footer-wrapper {
+    display:grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
+  
+}
+
 footer {
   border-top: solid 1px #ccc;
   margin-top: 2rem;
   grid-column: 2;
-  grid-row: 5;
+  grid-row: -1;
   text-align: center;
 }
 
@@ -347,10 +372,7 @@ footer>.colophon {
 
 /* Footer ends */
 
-
-
 /********************  begin media queries ********************/
-
 
 @media (max-width: 960px) {
   body {

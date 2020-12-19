@@ -13,14 +13,17 @@ heroImgHeight: 0.667
 
 I believe that life is about balance. I am here to help!  In the 23 years I’ve been a Chiropractor, I have merged my abilities and training into a practice that’s led thousands of people to relief from pain, to better health, and greater balance. I am proud of the work I do, and take tremendous joy in seeing my patients regain abilities lost through injury, progress through challenges and grow more confident. I want every one of my patients to succeed in the goals they set with me as well as goals they set independently. I am delighted to see them achieve success everyday in my practice. 
 
-<blockquote>
-<h2>My Approach</h2>
-I combine  chiropractic adjustments with many modalities including physical therapy  odalities, stretching, soft tissue work and therapeutic exercise.  I want to make sure your entire spine is right, not just where it hurts. Often we’ll find that your knee injury is contributing to your low back pain. Or your shoulder or elbow injury is affecting your neck stability. If that’s the case, I work with the mechanics of your extra ties in order to improve the mechanics of your body as a whole.  It’s all connected. You are so much more than just your neck or low back pain.
-</blockquote>
+>
+>>  ## My Approach
+>>  I combine  chiropractic adjustments with many modalities including physical therapy  modalities, stretching, soft tissue work and therapeutic exercise.  I want to make sure your entire spine is right, not just where it hurts. Often we’ll find that your knee injury is contributing to your low back pain. Or your shoulder or elbow injury is affecting your neck stability. If that’s the case, I work with the mechanics of your extra ties in order to improve the mechanics of your body as a whole.  It’s all connected. You are so much more than just your neck or low back pain.
+><div class="feature-img-1"></div>
+
+
 
 
 Your nervous system coordinates every conscious and unconscious function in your body. Sometimes the flow of these neurological messages becomes blocked, and can’t do their job of keeping organs and muscles functioning optimally. 
-Chiropractic adjustments help your body move by increasing spinal & joint mobility. This creates a healthier nervous system and improved body function. In addition, adjustments activate the innate intelligence of the nervous system, remove nerve interference, and enhance the flow of energy throughout the body promoting health and vitality. I have an extensive knowledge of biomechanics, anatomy and physiology, which allows me to blend chiropractic adjustments, physical therapy and stretching / strengthening exercises.
+Chiropractic adjustments help your body move by increasing spinal & joint mobility. This creates a healthier nervous system and improved body function. In addition, adjustments activate the innate intelligence of the nervous system, remove nerve interferen
+ce, and enhance the flow of energy throughout the body promoting health and vitality. I have an extensive knowledge of biomechanics, anatomy and physiology, which allows me to blend chiropractic adjustments, physical therapy and stretching / strengthening exercises.
 Let’s talk about basic posture, and how not to let gravity get the best of you. I want to talk about what we can do to get you in the best possible health. 
 You can expect direct and punctual communication with me via telephone or email. I wear most of the hats in my office. If you call and get voicemail, I’m probably with a patient. Leave me a message. I’ll get back to you right away!
 Initial Visit
@@ -28,10 +31,12 @@ Initial Visit
 
 I run a small, service-oriented health care practice. That means that you can expect me to really listen to your story. I want to know how I can help you. We’ll spend time going through the history of you in order to put the full picture together. What’s making you hurt today might be related to something in your past. During our 30-45 minutes together, we’ll discuss your health goals, evaluate your range of mobility and test your nervous system for numbness, tingling or unevenness of sensation.  I want to know about what treatment you’ve had in the past— what’s worked and what hasn’t. Finally, I’ll do your first treatment.
 
-<blockquote>
-<h2>Regular Visits</h2>
-Once we’ve figured out what makes you tick (or what’s keeping you from ticking properly) in your initial visit, I’ll give you my assessment, and make a specific plan of action to get you to your health goal. We will work on your plan during each visit. Follow up visits are usually 20-30 minutes. 
-</blockquote>
+
+>
+>> ## Regular Visits
+>>Once we’ve figured out what makes you tick (or what’s keeping you from ticking properly) in your initial visit, I’ll give you my assessment, and make a specific plan of action to get you to your health goal. We will work on your plan during each visit. Follow up visits are usually 20-30 minutes. 
+><div class="feature-img-2"></div>
+
 
 ## My Services
 
