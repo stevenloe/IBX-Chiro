@@ -22,9 +22,9 @@
 
     {% endblock %}
 
-    <main>
+    <article>
       {{ content | safe }}
-    </main>
+    </article>
 
     {% include "components/footer.njk" %}
 
@@ -56,7 +56,12 @@
       cancelBtn.classList.add("show");
 }
 
+    {% block moreScript %}
+
+    {% endblock %}
   </script>
+
+
   
 </body>
 

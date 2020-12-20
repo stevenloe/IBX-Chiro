@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/pageWithForm.njk
 title:  Contact Me
 heroImg: /images/hero-contact.jpg
 heroText: Contact Me
@@ -19,11 +19,26 @@ Inner Banks Chiropractic
 Oriental, NC 28571   
 (252) 497-5910   
 
-[ Contact Us button ] —> displays the contact form
+<button class="button-link modal-open-button" >CONTACT ME</button>
+
+<div class="modal closed">
+  <form class="modal-content" name="contact" method="POST" data-netlify="true">
+    <header><h2>Contact Me</h2> <div class="modal-close-button">X</div></header>
+    <div class="title">Name</div>
+    <p class="first"><label>First Name: * <input type="text" name="firstname" /></label> </p>
+    <p class="last"><label>Last Name: * <input type="text" name="lastname" /></label> </p>
+    <p><label>Your Email: * <input type="email" name="email" /></label></p>
+    <p><label>Subject * <input type="text" name="subject" /></label></p>
+    <p><label>Message: * <textarea name="message"></textarea></label></p>
+    <p class="center"><button type="submit">SEND</button>
+    </form>
+</div>
+
+
+
 
 Office Hours  (what should these be?)
 M by appointment| T 9:00am to 3:00pm | W 9:00am to 5:00pm | F 9:00am to 3:00pm| S & Su by appointment for emergencies
-
 
 
 

@@ -146,7 +146,7 @@ body {
   padding: 0;
 }
 
-.hero .button-link {
+.button-link {
   display: flex;
   justify-self: center;
   margin-top: 1em;
@@ -157,7 +157,8 @@ body {
   text-align: center;
   font-weight: 400;
   color: #fff;
-  box-shadow: 3px 3px 1px rgba(30, 0, 0, 0.5);
+  box-shadow: 3px 3px 1px rgba(30, 0, 0, 0.3);
+  border:none;
 }
 
 .owner *, .headline {
@@ -275,10 +276,10 @@ nav .menu-icon, nav .cancel-icon, nav .search-icon {
 
 /* Navigation ends*/
 
-/* Main begins */
+/* article begins */
 
   
-main {
+article {
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
@@ -286,24 +287,24 @@ main {
   /* border: solid 5px green; */
 }
 
-main>h2, main>p, main>img {
+article>h2, article>p, article>img, article>form {
   grid-column: 2;
 }
 
-main>blockquote {
+article>blockquote {
   grid-column: 2 / 4;
   display: grid;
   grid-template-columns: 3fr 1fr;
   background: #DDE1D6;
 }
 
-main>blockquote>blockquote {
+article>blockquote>blockquote {
   grid-column: 1 /1;
   display: block;
   padding: 1.5em;
 }
 
-main>blockquote>blockquote>p {
+article>blockquote>blockquote>p {
   margin:0;
   padding:0;
 }
@@ -319,13 +320,13 @@ main>blockquote>blockquote>p {
   background-position: left;
 }
 
-main>.greenbox {
+article>.greenbox {
   grid-column: 2 / 3;
   padding: 1.5em 1.5em 1em 1.5em;
   background: #DDE1D6;
 }
 
-/* Main ends */
+/* article ends */
 
 /*  Footer begins */
 
@@ -580,17 +581,17 @@ footer>.colophon {
     margin: 0;
     flex-wrap: wrap;
   }
-  main {
+  article {
     padding-top: 0.6em
   }
-  main .alt-headline {
+  article .alt-headline {
     display: block;
     letter-spacing: 0.05em;
   }
-  main p:first-of-type {
+  article p:first-of-type {
     margin-top: 0.2em;
   }
-  main h1:first-of-type {
+  article h1:first-of-type {
     line-height: 1.2;
   }
 }
