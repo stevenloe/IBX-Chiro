@@ -18,7 +18,6 @@
     width: 100%;
     height: 100%;
     background: rgba(0,0,0, 0.6);
-    border:solid 6px red;
     display:block;
     overflow:auto;
   }
@@ -40,7 +39,8 @@
   form>header {
     grid-column: 1 / -1;
     display:flex;
-    background:#ddd;
+    align-items: center;
+    justify-content: space-between;
   }
 
   input[type=text], input[type=email], textarea {
@@ -64,7 +64,8 @@
   }
 
   form>.title {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    margin-bottom:-1em;
   }
 
   form>p{
@@ -72,8 +73,9 @@
     padding:0
   }
 
-  form>p.center {
+  p.center {
     text-align: center;
+    background:#ddd;
   }
 
   .modal.closed {
@@ -84,6 +86,9 @@
     overflow: hidden;
   }
 
+  .hidden{
+    display:none 
+  }
 
 
 </style>
@@ -102,15 +107,15 @@
 
 
 {% block moreScript %}
+
+
+<script>
 const modal = document.querySelector(".modal");
 const modalContent = document.querySelector(".modal-content");
-const closeButton = document.querySelector(".modal-close-button");
-const openButton = document.querySelector(".modal-open-button");
 const body = document.querySelector("body");
 
-closeButton.onclick = () => {
-  closeModal();
-}
+document.querySelector(".modal-open-button").addEventListener("click", openModal);
+document.querySelector(".modal-close-button").addEventListener("click", closeModal);
 
 modal.addEventListener("click", function(event) {
   if (event.currentTarget !== event.target) {
@@ -119,7 +124,7 @@ modal.addEventListener("click", function(event) {
   closeModal();
 });
 
-openButton.onclick = () => {
+function openModal() {
   modal.classList.toggle("closed");
   modalContent.classList.toggle("closed");
   body.classList.toggle("no-scroll");
@@ -131,7 +136,32 @@ function closeModal() {
   body.classList.toggle("no-scroll");
 }
 
+const formElem = document.querySelector("form")
+
+formElem.addEventListener('submit', (e) => {
+  e.preventDefault();
+  new FormData(formElem);
+
+  fetch('/', {
+    method: 'POST',
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString()
+  }).then(() => console.log('Form successfully submitted')).catch((error) =>
+    alert(error))
+});
+
+formElem.addEventListener('formdata', (e) => {
+  console.log('formdata fired');
+  e.preventDefault();
+
+  // Get the form data from the event object
+  let data = e.formData;
+  for (var value of data.values()) {
+    console.log("val", value);
+  }
+});
+
+
+</script>
 
 {% endblock %}
-
-
