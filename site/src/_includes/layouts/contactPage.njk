@@ -140,14 +140,18 @@ const formElem = document.querySelector("form")
 
 formElem.addEventListener('submit', (e) => {
   e.preventDefault();
-  new FormData(formElem);
+  let data = new FormData(formElem);
 
-  fetch('/', {
+   for (var value of data.values()) {
+    console.log("val:", value);
+  }
+
+  /* fetch('/', {
     method: 'POST',
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString()
   }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
+    alert(error)) */
 });
 
 formElem.addEventListener('formdata', (e) => {
@@ -157,7 +161,7 @@ formElem.addEventListener('formdata', (e) => {
   // Get the form data from the event object
   let data = e.formData;
   for (var value of data.values()) {
-    console.log("val", value);
+    console.log("val- ", value);
   }
 });
 
