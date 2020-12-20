@@ -22,7 +22,7 @@ Oriental, NC 28571
 <button class="button-link modal-open-button" >CONTACT ME</button>
 
 <div class="modal closed">
-  <form class="modal-content" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+  <form class="modal-content" name="contact" netlify-honeypot="bot-field" data-netlify="true">
     <p class="hidden">
       <label>Don’t fill this out if be human <input class="form-field" name="bot-field" /></label>
     </p>
