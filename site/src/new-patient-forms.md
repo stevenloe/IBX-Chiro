@@ -12,15 +12,15 @@ heroImgHeight: 0.334
 Prior to your first visit, please fill out these new patient forms. They’ll help me get up to speed quickly on you and medical history. You can either fill out the forms online or download, print, and fill them out by hand.
 
 
-Patient Information   
+**Patient Information**   
 Complete patient info form online or
 download .pdf
 
-Patient History   
+**Patient History**   
 Complete patient history form online or
 download .pdf
 
-HIPPA   
+**HIPPA**   
 Complete HIPPA form online or
 download .pdf
 
