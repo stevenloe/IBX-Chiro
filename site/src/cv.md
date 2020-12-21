@@ -9,7 +9,8 @@ bodyImgPosition: bottom left
 heroImgHeight: 0.334
 ---
 
-## Dr. Shari L Richard
+<h2 class="no-margin"> Dr. Shari L. Richard  </h2>
+
 Oriental NC 28571   
 252.497.5910
 
@@ -31,6 +32,7 @@ General Biology 1990-1991
 2020-present   
 Inner Banks Chiropractic   
 Owner/Physician 
+
 
 2019-present   
 Reid Family

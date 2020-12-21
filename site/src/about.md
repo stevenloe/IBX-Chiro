@@ -26,7 +26,9 @@ Chiropractic adjustments help your body move by increasing spinal & joint mobili
 ce, and enhance the flow of energy throughout the body promoting health and vitality. I have an extensive knowledge of biomechanics, anatomy and physiology, which allows me to blend chiropractic adjustments, physical therapy and stretching / strengthening exercises.
 Let’s talk about basic posture, and how not to let gravity get the best of you. I want to talk about what we can do to get you in the best possible health. 
 You can expect direct and punctual communication with me via telephone or email. I wear most of the hats in my office. If you call and get voicemail, I’m probably with a patient. Leave me a message. I’ll get back to you right away!
-Initial Visit
+
+
+## Initial Visit
 
 
 I run a small, service-oriented health care practice. That means that you can expect me to really listen to your story. I want to know how I can help you. We’ll spend time going through the history of you in order to put the full picture together. What’s making you hurt today might be related to something in your past. During our 30-45 minutes together, we’ll discuss your health goals, evaluate your range of mobility and test your nervous system for numbness, tingling or unevenness of sensation.  I want to know about what treatment you’ve had in the past— what’s worked and what hasn’t. Finally, I’ll do your first treatment.

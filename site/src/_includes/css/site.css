@@ -32,12 +32,23 @@ h1, h2, h3, h4, h5 {
   font-family: Forum, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
   color: black;
-  margin: 0;
-  letter-spacing: .19rem;
+  /* margin: .2em 0 0 0; */
+  letter-spacing: .08rem;
+  /* background:#666A49 */
+}
+
+h2 {
+  font-size: 1.9em;
+  margin-bottom: 0.6em;
+}
+
+h2.no-margin {
+  margin:0;
 }
 
 p {
-  margin: 0.8em 0
+  margin-bottom: 0.8em;
+
 }
 
 .nav-items a, .hero a, .logo a {
@@ -46,13 +57,14 @@ p {
 
 body {
   font-family: 'Avenir LT Std', montserrat, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.015rem;
-  orphans: 2;
+  orphans: 3;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #444;
   background-repeat: no-repeat;
+  letter-spacing: 0.8px;
 }
 
 .wrapper {
@@ -103,7 +115,7 @@ body {
 
 .owner * {
   color: #fff;
-}
+} 
 
 .owner>.name {
   font-size: 30px;
@@ -284,6 +296,7 @@ article {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
   grid-template-rows: auto auto auto auto auto;
+  padding-top:1.4em;
   /* border: solid 5px green; */
 }
 
@@ -296,18 +309,21 @@ article>blockquote {
   display: grid;
   grid-template-columns: 3fr 1fr;
   background: #DDE1D6;
+  margin: 0.9em 0 1.6em 0;
 }
 
 article>blockquote>blockquote {
   grid-column: 1 /1;
   display: block;
-  padding: 1.5em;
+  padding: 1.3em 1.8em 2em 1.8em;
 }
 
 article>blockquote>blockquote>p {
   margin:0;
   padding:0;
 }
+
+
 
 .feature-img-1 {
   background: #F1F3F5 url(/images/elina-sitnikova.png);
@@ -322,8 +338,10 @@ article>blockquote>blockquote>p {
 
 article>.greenbox {
   grid-column: 2 / 3;
-  padding: 1.5em 1.5em 1em 1.5em;
+  /* padding: 1.5em 1.5em 1em 1.5em; */
+  padding: 1.3em 1.8em 2em 1.8em;
   background: #DDE1D6;
+  margin: 0.9em 0 1.6em 0;
 }
 
 /* article ends */
@@ -594,4 +612,5 @@ footer>.colophon {
   article h1:first-of-type {
     line-height: 1.2;
   }
+
 }
