@@ -34,7 +34,6 @@ Oriental, NC 28571
     <p><label>Subject * <input type="text" class="form-field" name="subject" required /></label></p>
     <p><label>Message: * <textarea  class="form-field" name="message" required ></textarea></label></p>
     <button class="button-link submit-form" >SEND</button>
-
     </form>
 </div>
 
