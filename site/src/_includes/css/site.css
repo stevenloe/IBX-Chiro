@@ -403,7 +403,7 @@ footer>.colophon {
 
 @media (max-width: 960px) {
   body {
-    background-color: palegoldenrod; 
+    /* background-color: palegoldenrod;  */
   }
   footer {
     font-size: 0.9em;
@@ -418,7 +418,7 @@ footer>.colophon {
 
 @media (max-width: 900px) {
   body {
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     background-size: 6em auto;
   }
   .wrapper {
@@ -566,7 +566,7 @@ footer>.colophon {
 
 @media (max-width: 500px) {
   body {
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     background-size: 3em auto;
   }
 
@@ -617,8 +617,6 @@ footer>.colophon {
     font-size: 0.48em;
   }
 
-
-
   .button-link {
     display: flex;
     margin-bottom: 1em;
@@ -646,5 +644,4 @@ footer>.colophon {
   article h1:first-of-type {
     line-height: 1.2;
   }
-
 }
