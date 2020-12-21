@@ -28,11 +28,11 @@ Oriental, NC 28571
     </p>
     <header><h2>Contact Me</h2> <div class="modal-close-button">X</div></header>
     <div class="title">Name</div>
-    <p class="first"><label>First Name: * <input class="form-field" type="text" name="firstname" required /></label> </p>
-    <p class="last"><label>Last Name: * <input type="text" class="form-field" name="lastname" required /></label> </p>
-    <p><label>Your Email: * <input type="email" class="form-field" name="email" required  /></label></p>
-    <p><label>Subject * <input type="text" class="form-field" name="subject" required /></label></p>
-    <p><label>Message: * <textarea  class="form-field" name="message" required ></textarea></label></p>
+    <p class="first"><label>First Name: * <input class="form-field" type="text" maxlength="50"  name="firstname" required /></label> </p>
+    <p class="last"><label>Last Name: * <input type="text" maxlength="50"  class="form-field" name="lastname" required /></label> </p>
+    <p><label>Your Email: * <input type="email" maxlength="50" class="form-field" name="email" required  /></label></p>
+    <p><label>Subject * <input type="text" maxlength="100"  class="form-field" name="subject" required /></label></p>
+    <p><label>Message: * <textarea  class="form-field" maxlength="5000" name="message" required ></textarea></label></p>
     <button class="button-link submit-form" type="submit" >SEND</button>
     </form>
 </div>
