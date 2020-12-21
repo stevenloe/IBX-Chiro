@@ -1,11 +1,15 @@
 ---
+layout: layouts/page.njk
 title:  Shari Richard's CV
-layout: layouts/base.njk
-bodyImg: /images/bg-about.jpg
-bodyImgPosition: bottom right
+heroText: My CV
+heroImg: /images/joey-kyber-GPxgi4J82E4-unsplash-crop.png
+heroBgColor: "#795D3C"
+bodyImg: /images/pexels-dominika-roseclay-no-background.png
+bodyImgPosition: bottom left
+heroImgHeight: 0.334
 ---
 
-# Dr. Shari L Richard
+## Dr. Shari L Richard
 Oriental NC 28571   
 252.497.5910
 

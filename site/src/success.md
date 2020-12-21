@@ -1,16 +1,15 @@
 ---
 layout: layouts/page.njk
 title:  Thank you!
-heroImg: /images/hero-contact.jpg
-heroText: Success
+heroImg: /images/dany-goldraij-_PDbIPsjhVA-unsplash.png
+heroText: Thank You!
 bodyImg: /images/bg-about.jpg
-heroBgColor: "#323A27"
+heroBgColor: "#2E3C50"
 bodyImgPosition: bottom right
 heroImgHeight: 0.334
 ---
 
-## Thank you!
 
-I will get back to you just as soon as I can.
+I've received your message. I will get back to you just as soon as I can.
 
 Shari Richard
