@@ -22,22 +22,20 @@ Oriental, NC 28571
 <button class="button-link modal-open-button" >CONTACT ME</button>
 
 <div class="modal closed">
-  <form class="modal-content" name="contact" netlify-honeypot="bot-field" data-netlify="true">
+  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
     <p class="hidden">
-      <label>Don’t fill this out if be human <input class="form-field" name="bot-field" /></label>
+      <label>Don’t fill out this field if you are human <input class="form-field" name="bot-field" /></label>
     </p>
     <header><h2>Contact Me</h2> <div class="modal-close-button">X</div></header>
     <div class="title">Name</div>
-    <p class="first"><label>First Name: * <input class="form-field" type="text" name="firstname" /></label> </p>
-    <p class="last"><label>Last Name: * <input type="text" class="form-field" name="lastname" /></label> </p>
-    <p><label>Your Email: * <input type="email" class="form-field" name="email" /></label></p>
-    <p><label>Subject * <input type="text" class="form-field" name="subject" /></label></p>
-    <p><label>Message: * <textarea  class="form-field" name="message"></textarea></label></p>
-    <button class="button-link" type="submit">SEND</button>
+    <p class="first"><label>First Name: * <input class="form-field" type="text" name="firstname" required /></label> </p>
+    <p class="last"><label>Last Name: * <input type="text" class="form-field" name="lastname" required /></label> </p>
+    <p><label>Your Email: * <input type="email" class="form-field" name="email" required  /></label></p>
+    <p><label>Subject * <input type="text" class="form-field" name="subject" required /></label></p>
+    <p><label>Message: * <textarea  class="form-field" name="message" required ></textarea></label></p>
+    <button class="button-link submit-form" >SEND</button>
     </form>
 </div>
-
-
 
 
 Office Hours  (what should these be?)
