@@ -22,7 +22,7 @@ Oriental, NC 28571
 <button class="button-link modal-open-button" >CONTACT ME</button>
 
 <div class="modal closed">
-  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+  <form name="contact" class="modal-content" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="success">
     <p class="hidden">
       <label>Don’t fill out this field if you are human <input class="form-field" name="bot-field" /></label>
     </p>
@@ -34,6 +34,7 @@ Oriental, NC 28571
     <p><label>Subject * <input type="text" class="form-field" name="subject" required /></label></p>
     <p><label>Message: * <textarea  class="form-field" name="message" required ></textarea></label></p>
     <button class="button-link submit-form" >SEND</button>
+
     </form>
 </div>
 
