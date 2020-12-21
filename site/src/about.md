@@ -16,7 +16,7 @@ I believe that life is about balance. I am here to help!  In the 23 years I’ve
 >
 >>  ## My Approach
 >>  I combine  chiropractic adjustments with many modalities including physical therapy  modalities, stretching, soft tissue work and therapeutic exercise.  I want to make sure your entire spine is right, not just where it hurts. Often we’ll find that your knee injury is contributing to your low back pain. Or your shoulder or elbow injury is affecting your neck stability. If that’s the case, I work with the mechanics of your extra ties in order to improve the mechanics of your body as a whole.  It’s all connected. You are so much more than just your neck or low back pain.
-><div class="feature-img-1"></div>
+><div class="feature feature-img-1"></div>
 
 
 
@@ -37,7 +37,7 @@ I run a small, service-oriented health care practice. That means that you can ex
 >
 >> ## Regular Visits
 >>Once we’ve figured out what makes you tick (or what’s keeping you from ticking properly) in your initial visit, I’ll give you my assessment, and make a specific plan of action to get you to your health goal. We will work on your plan during each visit. Follow up visits are usually 20-30 minutes. 
-><div class="feature-img-2"></div>
+><div class="feature feature-img-2"></div>
 
 
 ## My Services

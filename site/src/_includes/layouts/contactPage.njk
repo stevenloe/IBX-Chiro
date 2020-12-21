@@ -5,11 +5,9 @@
     background: url({{ bodyImg }});
     background-position: {{ bodyImgPosition }};
   }
-
   .hero {
     background: {{ heroBgColor }} url({{ heroImg }}); 
     }
-
   .modal {
     z-index: 3000;
     position: fixed;
@@ -21,12 +19,10 @@
     display:block;
     overflow:auto;
   }
-
   .modal-content {
     position: relative;
     margin: 3em;
   }
-
   form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,7 +30,6 @@
     padding:2em;
     border: solid 1px #ccc;
     background:#fff;
-
   }
   form>header {
     grid-column: 1 / -1;
@@ -49,6 +44,10 @@
     padding:0.5em;
     font-size:1.3em;
     width:100%;
+  }
+
+  textarea {
+    height: 250px
   }
 
   form>* {
@@ -89,6 +88,29 @@
   .hidden{
     display:none 
   }
+
+
+  @media (max-width: 900px) {
+    .modal-content {
+        margin: 1.5em;
+    }
+    form {
+      padding:1em;
+    }
+
+  @media (max-width: 500px) {
+    .modal-content {
+        margin: .5em;
+    }
+    .modal-content>.title {
+        display:none;
+    }
+
+    p.first, p.last{
+    grid-column: 1 / -1
+    }
+  }
+
 
 
 </style>

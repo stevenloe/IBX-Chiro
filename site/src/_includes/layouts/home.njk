@@ -17,8 +17,13 @@
     {% include "components/owner.njk" %}
 
     <heading class="cta">
-      <h1>{{ heroText }}</h1>
+      <h1 class="home-hero-text">{{ heroText }}</h1>
       <a class="button-link home-cta" href="/schedule/">BOOK  APPOINTMENT</a>
     </heading>
   </div>
 {% endblock %}
+
+  {% block mobileHeading%}
+    <h1 class="mobile-heading">Good health requires balance.</h1>
+  {% endblock %}
+
