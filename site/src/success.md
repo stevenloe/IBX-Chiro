@@ -1,13 +1,12 @@
 ---
-layout: layouts/base.njk
-title:  Contact Me
+layout: layouts/page.njk
+title:  Thank you!
 heroImg: /images/hero-contact.jpg
 heroText: Success
 bodyImg: /images/bg-about.jpg
 heroBgColor: "#323A27"
 bodyImgPosition: bottom right
 heroImgHeight: 0.334
-
 ---
 
 ## Thank you!
