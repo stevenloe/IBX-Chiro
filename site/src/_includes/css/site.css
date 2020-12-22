@@ -26,24 +26,6 @@
   font-display: swap;
 }
 
-
-
-/* @font-face {
-  font-family: 'Avenir LT Std';
-  src: url('../fonts/AvenirLTStd-Light.woff2') format('woff2'), url('../fonts/AvenirLTStd-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Forum';
-  src: url('../fonts/Forum.woff2') format('woff2'), url('../fonts/Forum.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -113,7 +95,6 @@ a, a:visited{
 }
 
 
-
 .top-branding {
   grid-column: 1 / -1;
   grid-row: 1;
@@ -135,6 +116,16 @@ a, a:visited{
   height: calc((100vw - 120px) * {{ heroImgHeight }});
   padding: 3% 5%;
   grid-gap: 7%;
+}
+
+.cta a:link,
+.cta a:visited,
+.cta a:active{
+  color: #fff;
+}
+
+.cta a:hover {
+  background-color:#333;
 }
 
 .center-heading {
@@ -416,6 +407,7 @@ footer>address {
   justify-content: space-between;
   padding: 0;
   font-style: normal;
+  font-size: 0.85em;
 }
 
 address>div {
@@ -445,7 +437,7 @@ footer>.colophon {
     /* background-color: palegoldenrod;  */
   }
   footer {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   article {
@@ -490,7 +482,15 @@ footer>.colophon {
     top:0;
     width: 100%;
     background-color: #eee;
-  
+  }
+
+  .bad-attempt-at-menu-icon {
+    width: 22px;
+    height: 12px;
+    border-top: solid #000 ;
+    border-bottom: solid #000 ;
+    margin-left: 10px;
+    margin-top:8px;
   }
   nav .logo {
     flex: 2;
