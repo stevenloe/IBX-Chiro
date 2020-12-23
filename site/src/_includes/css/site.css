@@ -435,11 +435,13 @@ footer>.colophon {
 
 @media (max-width: 960px) {
   body {
-    background-color: palegoldenrod; 
+    /* background-color: palegoldenrod;  */
   }
   .hero {
     background: url({{ heroImgBaseURL }}w_832{{ heroImgPath}});
     background-repeat: no-repeat;
+    background-size: calc(100vw - 6.4em) auto;
+    height: calc((100vw - 120px) * {{ heroImgHeight }});
   }
   footer {
     font-size: 0.8em;
@@ -454,13 +456,13 @@ footer>.colophon {
 
 @media (max-width: 900px) {
   body {
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     background-size: 6em auto;
   }
 
   .hero {
-    background: url({{ heroImgBaseURL }}w_900{{ heroImgPath}});
     margin-top: 45px;
+    background: url({{ heroImgBaseURL }}w_900{{ heroImgPath}});
     background-size: 100vw auto;
     height: calc(100vw * {{ heroImgHeight }});
     background-repeat: no-repeat;
@@ -591,12 +593,14 @@ footer>.colophon {
 
 @media (max-width: 750px) {
   body {
-    background-color: lightpink;
+    /* background-color: lightpink; */
     background-size: 4em auto;
   }
 
   .hero {
     background: url({{ heroImgBaseURL }}w_750{{ heroImgPath}});
+    background-size: 100vw auto;
+    height: calc(100vw * {{ heroImgHeight }});
     background-repeat: no-repeat;
   }
   .wrapper {
@@ -619,12 +623,14 @@ footer>.colophon {
 
 @media (max-width: 500px) {
   body {
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     background-size: 3em auto;
   }
 
   .hero {
     background: url({{ heroImgBaseURL }}w_500{{ heroImgPath}});
+    background-size: 100vw auto;
+    height: calc(100vw * {{ heroImgHeight }});
     background-repeat: no-repeat;
   }
 
