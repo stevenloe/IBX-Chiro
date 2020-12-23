@@ -60,7 +60,6 @@ h2.no-margin {
 
 p {
   margin-bottom: 0.8em;
-
 }
 
 .nav-items a, .hero a, .logo a {
@@ -346,7 +345,7 @@ article>blockquote {
 }
 
 article>blockquote>blockquote {
-  grid-column: 1 /1;
+  grid-column: 1 / 1;
   display: block;
   padding: 1.3em 1.8em 2em 1.8em;
 }
@@ -449,7 +448,7 @@ footer>.colophon {
 
 @media (max-width: 960px) {
   body {
-    /* background-color: palegoldenrod;  */
+    background-color: palegoldenrod; 
   }
   .hero {
     background: url({{ heroImgBaseURL }}w_832{{ heroImgPath}});
@@ -470,7 +469,7 @@ footer>.colophon {
 
 @media (max-width: 900px) {
   body {
-    /* background-color: lightskyblue; */
+    background-color: lightskyblue;
     background-size: 6em auto;
   }
 
@@ -587,8 +586,7 @@ footer>.colophon {
   nav .menu-icon {
     display: block;
   }
-  /* TODO: Put this line back to re-enable search */
-  /* nav .search-icon, nav .menu-icon { */
+
   nav .menu-icon {
     display: block;
   }
@@ -607,7 +605,7 @@ footer>.colophon {
 
 @media (max-width: 750px) {
   body {
-    /* background-color: lightpink; */
+    background-color: lightpink;
     background-size: 4em auto;
   }
 
@@ -635,9 +633,19 @@ footer>.colophon {
   }
 }
 
+@media (max-width: 675px) {
+  .feature {
+    display:none;
+  }
+
+  article>blockquote>blockquote {
+    grid-column: 1 /-1;
+  }
+}
+
 @media (max-width: 500px) {
   body {
-    /* background-color: lightseagreen; */
+    background-color: lightseagreen;
     background-size: 3em auto;
   }
 
