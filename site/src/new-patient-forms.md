@@ -1,11 +1,11 @@
 ---
-layout: layouts/page.njk
+layout: layouts/forms.njk
 title:  New Patient Forms
 heroText: Forms
 heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_75,
 heroImgPath: /v1608741127/hero-forms_vtgupb.jpg
 heroBgColor: "#79A567"
-bodyImg: https://res.cloudinary.com/stevenloe/image/upload/q_72/v1608744766/rawpixel-plant_ptdvua.jpg
+bodyImg: https://res.cloudinary.com/stevenloe/image/upload/q_72/v1608758371/bg_forms_cbdztc.jpg
 bodyImgPosition: bottom right
 heroImgHeight: 0.334
 ---

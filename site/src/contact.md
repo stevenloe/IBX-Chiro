@@ -4,13 +4,19 @@ title:  Contact Me
 heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_72,
 heroImgPath: /v1608744902/hero-contact_u814yy.jpg
 heroText: Contact Me
-bodyImg: https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_65/v1608745183/leaf-right-25_bzgq0w.jpg
+bodyImg: https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_65/v1608760087/leaf-right-25-1_k1eaz2.jpg
 heroBgColor: "#323A27"
 bodyImgPosition: bottom right
 heroImgHeight: 0.334
-
 ---
+
+<div class="contact-wrapper">
+
 **DR. SHARI L. RICHARD, DC**
+
+<a href="https://www.facebook.com/IBXchiro/">
+  <svg  xmlns="http://www.w3.org/2000/svg" width="45px" height="45px" viewBox="126.445 2.281 589 589" style="zoom: 1;"><circle cx="420.945" cy="296.781" r="294.5" fill="black" visibility="visible"></circle><path d="M516.704 92.677h-65.239c-38.715 0-81.777 16.283-81.777 72.402.189 19.554 0 38.281 0 59.357H324.9v71.271h46.174v205.177h84.847V294.353h56.002l5.067-70.117h-62.531s.14-31.191 0-40.249c0-22.177 23.076-20.907 24.464-20.907 10.981 0 32.332.032 37.813 0V92.677h-.032z" fill="#fff"></path></svg>
+</a>
 
 (Facebook Icon)   ~~(Yelp Icon)~~  (Linkedin Icon)
 
@@ -22,6 +28,26 @@ Oriental, NC 28571
 <p>
   <button class="button-link modal-open-button" style="display:inline-block">CONTACT ME</button>
 </p>
+
+</div>
+
+
+
+
+Office Hours 
+
+
+**(((( What should these be?))))**
+
+M by appointment | T 9:00am to 3:00pm | W 9:00am to 5:00pm | F 9:00am to 3:00pm | S & Su by appointment for emergencies
+
+
+<p>
+  <a class="button-link" style="display:inline-block" href="/schedule/">SCHEDULE NOW</a>
+</p>
+
+
+<img src="https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:60,q_48/v1608745248/map_obed05.jpg" alt="map of Inner Banks Chiropractic" style="width:100%">
 
 
 <div class="modal closed">
@@ -39,19 +65,3 @@ Oriental, NC 28571
     <button class="button-link submit-form" type="submit" >SEND</button>
     </form>
 </div>
-
-
-Office Hours 
-
-
-**(((( What should these be?))))**
-
-M by appointment | T 9:00am to 3:00pm | W 9:00am to 5:00pm | F 9:00am to 3:00pm | S & Su by appointment for emergencies
-
-
-<p>
-  <a class="button-link" href="/schedule/">SCHEDULE NOW</a>
-</p>
-
-
-<img src="https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:60,q_48/v1608745248/map_obed05.jpg" alt="map of Inner Banks Chiropractic" style="width:100%">

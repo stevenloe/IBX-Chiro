@@ -119,13 +119,14 @@ a, a:visited{
   grid-gap: 7%;
 }
 
-.cta a:link,
-.cta a:visited,
-.cta a:active{
+ a.button-link:link,
+ a.button-link:visited,
+ a.button-link:active{
   color: #fff;
+  text-decoration: none;
 }
 
-.cta a:hover {
+a.button-link:hover {
   background-color:#333;
 }
 
@@ -330,7 +331,6 @@ article {
   grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
   grid-template-rows: auto auto auto auto auto;
   padding-top:1.4em;
-  /* border: solid 5px green; */
 }
 
 article>h2, article>p, article>img, article>form {
@@ -355,9 +355,6 @@ article>blockquote>blockquote>p {
   margin:0;
   padding:0;  
 }
-
-/* TODO: These feature images will have to be replaced with 
-narrower images at small screen widths */
 
 .feature-img-1 {
   background: #F1F3F5 url(https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_71/v1608740494/elina-sitnikova-1_mt5iqb.jpg);
@@ -384,6 +381,22 @@ h1.mobile-heading {
   display:none;
 }
 
+article.leafy {
+  background: no-repeat url(https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_70,w_138/v1608759746/bg-pointy-leaf-65_hx8qw7.jpg);
+  background-position: right center;
+}
+
+article>.contact-wrapper {
+  grid-column: 2;
+  background: no-repeat url(https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_70,w_138/v1608759746/bg-pointy-leaf-65_hx8qw7.jpg);
+  background-position: left center;
+}
+
+article>icon-wrapper {
+  max-width: ;
+}
+
+
 /* article ends */
 
 /*  Footer begins */
@@ -391,6 +404,7 @@ h1.mobile-heading {
 .footer-wrapper {
     display:grid;
     grid-template-columns: minmax(100px, 1fr) minmax(550px, 750px) minmax(100px, 1fr);
+    padding-bottom:3em;
 }
 
 footer {
@@ -418,7 +432,7 @@ address>div {
 footer>.byline {
   margin: 12px 0 0 0;
   padding-top: 1.6em;
-  font-size: 0.9em;
+  font-size: 0.8em;
   /* border-top: solid 1px #ccc; */
 }
 
@@ -448,7 +462,7 @@ footer>.colophon {
   }
 
   article {
-    grid-template-columns: 0px 12fr 0px
+    grid-template-columns: 0px 12fr 0px;
   }
 }
 
