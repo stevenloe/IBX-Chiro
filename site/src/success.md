@@ -1,7 +1,8 @@
 ---
 layout: layouts/page.njk
 title:  Thank you!
-heroImg: /images/dany-goldraij-_PDbIPsjhVA-unsplash.png
+heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_70,
+heroImgPath: /v1608746156/dany-goldraij-_PDbIPsjhVA-unsplash_tcdagk.jpg
 heroText: Thank You!
 bodyImg: /images/bg-about.jpg
 heroBgColor: "#2E3C50"

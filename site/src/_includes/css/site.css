@@ -360,11 +360,11 @@ article>blockquote>blockquote>p {
 narrower images at small screen widths */
 
 .feature-img-1 {
-  background: #F1F3F5 url(/images/elina-sitnikova.png);
+  background: #F1F3F5 url(https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_71/v1608740494/elina-sitnikova-1_mt5iqb.jpg);
 }
 
 .feature-img-2 {
-  background: #666A49 url(/images/pexels-nicollazzi-xiong.png);
+  background: #666A49 url(https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_63/v1608740502/pexels-nicollazzi-xiong-1_ahfgzw.jpg);
 }
 
 .feature {

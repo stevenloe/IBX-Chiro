@@ -2,14 +2,13 @@
 {% extends "layouts/base.njk" %}
 {% block customstyles %}
 <style>
-  body {
+  body{
     background: url({{ bodyImg }});
     background-position: {{ bodyImgPosition }};
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
   }
 
-  .hero {
-    background: {{ heroBgColor }} url({{ heroImg }}); 
-    }
 </style>
 {% endblock %}
 
