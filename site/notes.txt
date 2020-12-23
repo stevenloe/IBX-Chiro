@@ -1,3 +1,0 @@
-Build command: npm run build 
-
-Run & Serve Locally : npm serve
