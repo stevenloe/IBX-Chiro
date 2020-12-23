@@ -7,7 +7,6 @@
   font-display: swap;
 }
 
-
 @font-face {
   font-family: 'Avenir LT Std';
   src: url('/fonts/AvenirLTStd-Roman.woff2') format('woff2'),
@@ -33,20 +32,11 @@
   box-sizing: border-box;
 }
 
-/* html {
-    width: 100vw;
-    height: 100vh;
-    background: blue url(images/home-layout-red.jpg);
-    background-repeat: no-repeat;
-  } */
-
 h1, h2, h3, h4, h5 {
   font-family: Forum, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
   color: black;
-  /* margin: .2em 0 0 0; */
   letter-spacing: .08rem;
-  /* background:#666A49 */
 }
 
 h2 {
@@ -89,10 +79,7 @@ a, a:visited{
 
 .wrapper {
   margin: 1em 3.2em 0 3.2em;
-  /* display:grid; */
-  /* border: solid 5px hotpink; */
 }
-
 
 .top-branding {
   grid-column: 1 / -1;
@@ -186,11 +173,6 @@ a.button-link:hover {
   line-height: 1.12;
 }
 
-/* .text-to-top {
-  align-content: start;
-  padding: 0;
-} */
-
 .button-link {
   display: flex;
   justify-self: center;
@@ -241,67 +223,25 @@ nav .logo {
 nav .nav-items {
   display: flex;
   flex: 1;
-  /* padding: 0 0 0 40px; */
   justify-content: space-between;
-  /* border: 1px solid #00f; */
 }
 
-nav .nav-items li {
-  list-style: none;
-  padding: 0;
-}
-
-nav .nav-items li a {
+nav .nav-items a {
   color: #22495A;
   font-size: 1.1em;
   font-weight: 300;
 }
 
-nav .nav-items li a:hover {
+nav .nav-items a:hover {
   color: green;
   text-decoration: underline;
 }
 
-nav .nav-items li a:active {
+nav .nav-items a:active {
   color: green;
   text-decoration: underline;
 }
 
-nav form {
-  /* display: flex; */
-  display: none;
-  height: 40px;
-  padding: 2px;
-  background: #1e232b;
-  min-width: 18%!important;
-  border-radius: 2px;
-  border: 1px solid rgba(155, 155, 155, 0.2);
-}
-
-nav form .search-data {
-  width: 100%;
-  height: 100%;
-  padding: 0 10px;
-  color: #fff;
-  font-size: 17px;
-  border: none;
-  font-weight: 500;
-  background: none;
-}
-
-nav form button {
-  padding: 0 15px;
-  color: #fff;
-  font-size: 17px;
-  background: #ff3d00;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
-nav form button:hover {
-  background: #e63600;
-}
 
 nav .menu-icon, nav .cancel-icon, nav .search-icon {
   width: 40px;
@@ -465,8 +405,6 @@ footer>.colophon {
   }
 }
 
-/* @media (max-width: 1140px) { */
-
 @media (max-width: 900px) {
   body {
     background-color: lightskyblue;
@@ -483,15 +421,16 @@ footer>.colophon {
 
   .wrapper {
     margin: 0;
-    /* grid-template-columns: minmax(0px, 1fr) 5fr minmax(0px, 1fr); */
   }
 
   article {
     grid-template-columns: 1fr 12fr 1fr;
   }
+
   .footer-wrapper {
     grid-template-columns: 1fr 12fr 1fr;
-}
+  }
+
   footer {
     font-size: 1em;
   }
@@ -499,6 +438,7 @@ footer>.colophon {
   .top-branding {
     display: none;
   }
+
   nav {
     padding: 0px;
     position: fixed;
@@ -515,74 +455,40 @@ footer>.colophon {
     margin-left: 10px;
     margin-top:8px;
   }
+
   nav .logo {
     flex: 2;
     text-align: center;
     display: block;
     color: #22495A;
   }
+
   nav .nav-items {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     z-index: 99;
-    top: 45px;
+    top: -15px;
     width: 100%;
     left: -100%;
     height: 100%;
-    padding: 10px 50px 0 50px;
     text-align: center;
     background: #fff;
-    display: inline-block;
+    justify-content: start;
+    padding-top: 3em;
     transition: left 0.3s ease;
     overflow: scroll;
   }
+
   nav .nav-items.active {
     left: 0px;
   }
-  nav .nav-items li {
-    line-height: 40px;
-    margin: 3em 0;
-  }
-  nav .nav-items li a {
+
+  nav .nav-items a {
     font-size: 1.8em;
+    margin: 1.5em 0
   }
-  nav form {
-    /* position: absolute; */
-    top: 80px;
-    right: 50px;
-    opacity: 0;
-    pointer-events: none;
-    transition: top 0.3s ease, opacity 0.1s ease;
-  }
-  nav form.active {
-    top: 95px;
-    opacity: 1;
-    pointer-events: auto;
-  }
-  nav form:before {
-    /* position: absolute; */
-    content: "";
-    top: -13px;
-    right: 0px;
-    width: 0;
-    height: 0;
-    z-index: -1;
-    border: 10px solid transparent;
-    border-bottom-color: #1e232b;
-    margin: -20px 0 0;
-  }
-  nav form:after {
-    /* position: absolute; */
-    content: '';
-    height: 60px;
-    padding: 2px;
-    background: #1e232b;
-    border-radius: 2px;
-    min-width: calc(100% + 20px);
-    z-index: -2;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
+
   nav .menu-icon {
     display: block;
   }
@@ -590,12 +496,15 @@ footer>.colophon {
   nav .menu-icon {
     display: block;
   }
+
   nav .menu-icon.hide, nav .search-icon.hide {
     display: none;
   }
+
   nav .cancel-icon.show {
     display: block;
   }
+
   footer>address {
     flex-direction: column;
     font-size: 1em;
@@ -615,19 +524,20 @@ footer>.colophon {
     height: calc(100vw * {{ heroImgHeight }});
     background-repeat: no-repeat;
   }
+
   .wrapper {
     margin: 0;
     grid-template-columns: minmax(0px, 1fr) 14fr minmax(0px, 1fr);
   }
+
   .cta h1 {
     font-size: 2em;
   }
+
   .hero .button-link {
     font-size: 0.7em;
   }
-  nav .menu-icon, nav .cancel-icon, nav .search-icon {
-    /* margin: 0 20px; */
-  }
+
   nav form {
     right: 30px;
   }
@@ -656,34 +566,37 @@ footer>.colophon {
     background-repeat: no-repeat;
   }
 
-
   nav .menu-icon, nav .cancel-icon, nav .search-icon {
-    /* margin: 0 10px; */
     font-size: 16px;
   }
-  nav .nav-items li {
+
+  nav .nav-items  {
     line-height: 1em;
     margin: 3em 0;
   }
-  nav .nav-items li a {
+
+  nav .nav-items  a {
     font-size: 1.7em;
   }
+
   nav .logo {
     font-size: 1.3em;
     margin-left: -1em;
     z-index: -1
   }
+
   .hero {
     grid-template-rows: 1fr 3fr;
     padding: 0 5%;
   }
+
   .hero .cta {
-    /* grid-column: 1 / -1; */
     grid-row: 2;
     justify-content: center;
     align-content: start;
     flex-direction: row;
   }
+
   .hero .owner {
     grid-column: 1 / -1;
     grid-row: 1;
@@ -696,9 +609,11 @@ footer>.colophon {
   .pad-top {
     padding-top: 50%;
   }
+
   .owner .name {
     font-size: 1em;
   }
+
   .owner .title {
     font-size: 0.48em;
   }
@@ -714,19 +629,24 @@ footer>.colophon {
     font-size: 1.5em;
     margin: 0.2em 1em;
   }
+
   .home-hero-text {
     display:none;
   }
+
   article {
     padding-top: 0.6em
   }
+
   article .alt-headline {
     display: block;
     letter-spacing: 0.05em;
   }
+
   article p:first-of-type {
     margin-top: 0.2em;
   }
+  
   article h1:first-of-type {
     line-height: 1.2;
   }
