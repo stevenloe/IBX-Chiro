@@ -6,7 +6,6 @@ heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_shar
 heroImgPath: /v1608673216/hero-home-bonsai-flip_hhje08.jpg
 heroImg: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,w_1000/v1608673216/hero-home-bonsai-flip_hhje08.jpg
 heroText: Good health requires balance.
-# bodyImg: /images/pexels-dominika-roseclay-no-background.png
 bodyImg: https://res.cloudinary.com/stevenloe/image/upload/q_70/v1608679176/pexels-dominika-roseclay-no-background_m2qgr2.png
 heroBgColor: "#5F8259"
 bodyImgPosition: bottom left
