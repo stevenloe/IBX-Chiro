@@ -12,7 +12,7 @@ heroImgHeight: 0.334
 ---
 **DR. SHARI L. RICHARD, DC**
 
-(Facebook Icon)   (Yelp Icon)  (Linkedin Icon)
+(Facebook Icon)   ~~(Yelp Icon)~~  (Linkedin Icon)
 
 Inner Banks Chiropractic   
 711 Broad Street   
@@ -42,6 +42,9 @@ Oriental, NC 28571
 
 
 Office Hours 
+
+
+**(((( What should these be?))))**
 
 M by appointment | T 9:00am to 3:00pm | W 9:00am to 5:00pm | F 9:00am to 3:00pm | S & Su by appointment for emergencies
 
