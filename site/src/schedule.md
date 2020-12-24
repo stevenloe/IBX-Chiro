@@ -13,6 +13,6 @@ heroImgHeight: 0.334
 
 To schedule and appointment, you can book a time online using our handy schedule widget:
 
-<img src="/images/schedule-widget-fpo.jpg">
+<img  style="max-width:320px" src="/images/schedule-widget-fpo.jpg">
 
 Or you can call me at (252) 497-5910
