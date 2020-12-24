@@ -388,7 +388,7 @@ footer>.colophon {
 
 @media (max-width: 960px) {
   body {
-    background-color: palegoldenrod; 
+    /* background-color: palegoldenrod;  */
   }
   .hero {
     background: url({{ heroImgBaseURL }}w_832{{ heroImgPath}});
@@ -407,7 +407,7 @@ footer>.colophon {
 
 @media (max-width: 900px) {
   body {
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     background-size: 6em auto;
   }
 
@@ -514,7 +514,11 @@ footer>.colophon {
 
 @media (max-width: 750px) {
   body {
-    background-color: lightpink;
+    /* background-color: lightpink; */
+    background-size: 4em auto;
+  }
+
+  article.leafy {
     background-size: 4em auto;
   }
 
@@ -555,8 +559,12 @@ footer>.colophon {
 
 @media (max-width: 500px) {
   body {
-    background-color: lightseagreen;
-    background-size: 3em auto;
+    /* background-color: lightseagreen; */
+    background-size: 5em auto;
+  }
+
+  article>.contact-wrapper {
+    background-size: 5em auto;
   }
 
   .hero {
@@ -646,7 +654,7 @@ footer>.colophon {
   article p:first-of-type {
     margin-top: 0.2em;
   }
-  
+
   article h1:first-of-type {
     line-height: 1.2;
   }

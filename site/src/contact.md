@@ -48,7 +48,7 @@ M by appointment | T 9:00am to 3:00pm | W 9:00am to 5:00pm | F 9:00am to 3:00pm 
 </p>
 
 
-<img src="https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:60,q_48/v1608745248/map_obed05.jpg" alt="map of Inner Banks Chiropractic" style="width:100%">
+<img src="https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:60,q_48/v1608745248/map_obed05.jpg" alt="map of Inner Banks Chiropractic" style="width:100%; margin-top:1.5em">
 
 
 <div class="modal closed">
