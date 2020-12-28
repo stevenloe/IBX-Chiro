@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5 {
 h2 {
   font-size: 1.9em;
   margin-bottom: 0.6em;
+  line-height: 1.1;
 }
 
 h2.no-margin {
@@ -447,15 +448,6 @@ footer>.colophon {
     background-color: #eee;
   }
 
-  .bad-attempt-at-menu-icon {
-    width: 22px;
-    height: 12px;
-    border-top: solid #000 ;
-    border-bottom: solid #000 ;
-    margin-left: 10px;
-    margin-top:8px;
-  }
-
   nav .logo {
     flex: 2;
     text-align: center;
@@ -468,7 +460,7 @@ footer>.colophon {
     flex-direction: column;
     position: fixed;
     z-index: 99;
-    top: -15px;
+    top: 46px;
     width: 100%;
     left: -100%;
     height: 100%;
@@ -489,12 +481,10 @@ footer>.colophon {
     margin: 1.5em 0
   }
 
-  nav .menu-icon {
-    display: block;
-  }
 
   nav .menu-icon {
     display: block;
+    margin: 5px  0 0 5px;
   }
 
   nav .menu-icon.hide, nav .search-icon.hide {
@@ -503,6 +493,7 @@ footer>.colophon {
 
   nav .cancel-icon.show {
     display: block;
+    margin-left:3px;
   }
 
   footer>address {
