@@ -106,16 +106,7 @@ a, a:visited{
   grid-gap: 7%;
 }
 
- a.button-link:link,
- a.button-link:visited,
- a.button-link:active{
-  color: #fff;
-  text-decoration: none;
-}
 
-a.button-link:hover {
-  background-color:#333;
-}
 
 .center-heading {
   grid-template-rows: 1fr 2fr;
@@ -180,13 +171,36 @@ a.button-link:hover {
   margin-top: 1em;
   background: #000;
   font-size: 0.9em;
-  padding: 0.6em 0.9em 0.6em 0.9em;
+  padding: 0.6em 0.9em 0.3em 0.9em;
   letter-spacing: 0.23em;
   text-align: center;
   font-weight: 400;
   color: #fff;
-  box-shadow: 3px 3px 1px rgba(30, 0, 0, 0.3);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
   border:none;
+  text-decoration: none;
+}
+
+.button-link:link,
+.button-link:visited {
+ color: #fff;
+}
+
+.button-link:hover,
+.button-link:active  {
+  color:#71bf71;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+button.button-link {
+  padding-bottom: .6em;
+}
+
+.home-cta:hover,
+.home-cta:active {
+  color: #fff;
+  background:#444;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .owner *, .headline {
