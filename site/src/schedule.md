@@ -15,4 +15,4 @@ To schedule and appointment, you can book a time online using our handy schedule
 
 <img  style="max-width:320px" src="/images/schedule-widget-fpo.jpg">
 
-Or you can schedule by phone at (252) 497-5910
+Or you can schedule by phone by calling (252) 497-5910
