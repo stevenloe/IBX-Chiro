@@ -73,7 +73,39 @@
   {% endblock %}
 
 
-  
+<style>
+  @keyframes fadeInFromBottom {
+  0% {
+    transform: translateY(1.5em);
+    opacity:0;
+  }
+
+  50% {
+    transform: translateY(1.5em);
+    opacity:0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header.cta
+ {
+  animation: 1.2s ease-out 0s 1 fadeInFromBottom;
+}
+
+@keyframes fadeIn {
+  0% { opacity:0;}
+
+  100% { opacity: 1;}
+}
+
+header.owner {
+  animation: 0.5s ease-out 0s 1 fadeIn;
+  }
+</style>
 </body>
 
 </html>
