@@ -9,6 +9,7 @@ media_folder: "dist/images/uploads" # Media files will be stored in the repo und
 public_folder: "/images"
 
 site_url: https://ibx-chiro.netlify.app
+display_url: https://ibx-chiro.netlify.app
 
 collections:
   # Our pages
