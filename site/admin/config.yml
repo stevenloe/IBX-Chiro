@@ -8,4 +8,20 @@ backend:
 media_folder: "dist/images/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/images"
 
-
+collections:
+  # Our pages
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "page" # Used in the UI
+    folder: "/" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk" }
+      - {label: "title", name: "title", widget: "string" }
+      - {label: "heroImgBaseURL", name: "heroImgBaseURL", widget: "string" }
+      - {label: "heroImgPath", name: "heroImgPath", widget: "string" }
+      - {label: "heroText", name: "heroText", widget: "string" }
+      - {label: "bodyImg", name: "bodyImg", widget: "string" }
+      - {label: "bodyImgPosition", name: "bodyImgPosition", widget: "string" }
+      - {label: "heroImgHeight", name: "heroImgHeight", widget: "number", default: 0.667 }
+      - {label: "body", name: "body", widget: "markdown" }
+    
