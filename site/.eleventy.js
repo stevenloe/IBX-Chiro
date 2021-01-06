@@ -4,6 +4,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("src/fonts")
   config.addPassthroughCopy("src/images")
   config.addPassthroughCopy("src/js")
+  config.addPassthroughCopy('src/admin')
   
   return {
     dir: {
@@ -14,3 +15,6 @@ module.exports = function (config) {
 
   
 }
+
+
+
