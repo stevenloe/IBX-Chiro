@@ -5,7 +5,6 @@ heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_shar
 heroImgPath: /v1608738624/hero-about-hawthorn-branch-1000px_it1ut3.jpg
 heroText: About Me
 bodyImg: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_75,w_237/v1608739476/bg-about_o66udq.jpg
-heroBgColor: "#8F8F8F"
 bodyImgPosition: bottom right
 heroImgHeight: 0.667
 ---

@@ -5,7 +5,6 @@ heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_shar
 heroImgPath: /v1608746156/dany-goldraij-_PDbIPsjhVA-unsplash_tcdagk.jpg
 heroText: Thank You!
 bodyImg: /images/bg-about.jpg
-heroBgColor: "#2E3C50"
 bodyImgPosition: bottom right
 heroImgHeight: 0.334
 ---

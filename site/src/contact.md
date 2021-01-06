@@ -5,7 +5,6 @@ heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_shar
 heroImgPath: /v1608744902/hero-contact_u814yy.jpg
 heroText: Contact Me
 bodyImg: https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_65/v1608760087/leaf-right-25-1_k1eaz2.jpg
-heroBgColor: "#323A27"
 bodyImgPosition: bottom right
 heroImgHeight: 0.334
 ---
