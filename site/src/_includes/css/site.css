@@ -259,6 +259,11 @@ nav .nav-items a:active {
   text-decoration: underline;
 }
 
+.alpha-50 {
+  opacity: 0.5;
+  text-decoration: none !important;
+}
+
 
 nav .menu-icon, nav .cancel-icon, nav .search-icon {
   width: 40px;

@@ -3,6 +3,7 @@ bodyImg: https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_65/v1
 articleClass: leafy img-right
 layout: layouts/page.njk
 title: Sí, hablo español
+pageId: spanish
 heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_70,
 heroImgPath: /v1608745499/hero-spanish_vcptiw.jpg
 heroText: Sí, hablo español

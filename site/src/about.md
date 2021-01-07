@@ -1,6 +1,7 @@
 ---
 layout: layouts/about.njk
-title:  About Me
+title: About Me
+pageId: about
 heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,
 heroImgPath: /v1608738624/hero-about-hawthorn-branch-1000px_it1ut3.jpg
 heroText: About Me

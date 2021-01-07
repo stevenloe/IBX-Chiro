@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 permalink: /
+pageId: home
 title:  Chiropractor in Oriental, NC
 heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,
 heroImgPath: /v1608673216/hero-home-bonsai-flip_hhje08.jpg

@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title:  Shari Richard's CV
+pageId: cv
 heroText: My CV
 heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_44,
 heroImgPath: /v1608745883/joey-kyber-GPxgi4J82E4-unsplash-crop_fwtwdx.jpg

@@ -1,6 +1,7 @@
 ---
 layout: layouts/contactPage.njk
 title:  Contact Me
+pageId: contact
 heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_72,
 heroImgPath: /v1608744902/hero-contact_u814yy.jpg
 heroText: Contact Me

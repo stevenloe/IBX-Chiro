@@ -40,6 +40,11 @@
   </div>
 
   <script>
+    const currentNavItem = document.querySelector('#nav-{{ pageId }}');
+    if (currentNavItem) { 
+      currentNavItem.classList.add('alpha-50'); 
+    }
+
     const menuBtn = document.querySelector(".menu-icon");
     const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
