@@ -93,7 +93,6 @@ a, a:visited{
 }
 
 
-
 /* Hero begins */
 
 .hero {
@@ -107,8 +106,6 @@ a, a:visited{
   padding: 3% 5%;
   grid-gap: 7%;
 }
-
-
 
 .center-heading {
   grid-template-rows: 1fr 2fr;
@@ -263,7 +260,6 @@ nav .nav-items a:active {
   opacity: 0.5;
   text-decoration: none !important;
 }
-
 
 nav .menu-icon, nav .cancel-icon, nav .search-icon {
   width: 40px;
