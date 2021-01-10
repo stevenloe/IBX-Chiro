@@ -32,10 +32,6 @@
   box-sizing: border-box;
 }
 
-a {
-  outline: 0;
-}
-
 h1, h2, h3, h4, h5 {
   font-family: Forum, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
@@ -344,6 +340,10 @@ article>.schedule-widget {
   text-align: center;
   margin-top: -1em;
   margin-bottom: 1em;
+}
+
+.schedule-widget a {
+  outline: 0;
 }
 
 h1.mobile-heading {

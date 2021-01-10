@@ -12,7 +12,7 @@ heroImgHeight: 0.334
 
 
 
-Shari Richard and Steven Loe would like to thank our very talented photographers.
+Shari Richard and Steven Loe would like to thank our very talented photographers:
 
 image: name of photographer
 
