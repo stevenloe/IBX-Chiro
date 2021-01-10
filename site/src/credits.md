@@ -20,3 +20,10 @@ image: name of photographer
 
 image: name of photographer
 
+[Dominika Roseclay](https://www.instagram.com/dominika_roseclay/) &ndash; Leaf image used on [home](/), [Schedule](/schedule/),  [CV](/cv/), [Credits](/credits/) pages. 
+
+[Dany Goldraij](https://unsplash.com/@danyg57)  &ndash; Sailboat image in [contact](/contact/) form flow. 
+
+
+[Elina Sitnikova](https://www.instagram.com/elpan_photo/)  &ndash; Plant image on [about](/about/) page.
+
