@@ -32,6 +32,10 @@
   box-sizing: border-box;
 }
 
+a {
+  outline: 0;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: Forum, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
@@ -332,6 +336,14 @@ article>.greenbox {
   padding: 1.3em 1.8em 2em 1.8em;
   background: #DDE1D6;
   margin: 0.9em 0 1.6em 0;
+}
+
+article>.schedule-widget {
+  grid-column: 2 / 3;
+  display:inline-block;
+  text-align: center;
+  margin-top: -1em;
+  margin-bottom: 1em;
 }
 
 h1.mobile-heading {

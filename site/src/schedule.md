@@ -11,11 +11,8 @@ bodyImgPosition: bottom left
 heroImgHeight: 0.334
 ---
 To schedule and appointment, you can book a time online using our handy schedule widget:
-
-
-
-```
 <!-- ClinicSense Button -->
+<article class="schedule-widget">
 <script type="text/javascript">
     var host = (('https:' == document.location.protocol) ? 'https://' : 'http://');
     var params = "?size=big&color=black";
@@ -23,6 +20,7 @@ To schedule and appointment, you can book a time online using our handy schedule
     'innerbankschiropractic.clinicsense.com/book_widget/') + params +
     unescape('" type="text/javascript"%3E%3C/script%3E'));
 </script>
-```
+</article>
+
 
 Or you can schedule by phone by calling (252) 497-5910
