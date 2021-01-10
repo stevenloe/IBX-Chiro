@@ -56,7 +56,7 @@ p {
 .nav-items a, .hero a, .logo a {
   text-decoration: none;
 }
-
+ 
 body {
   font-family: 'Avenir LT Std', montserrat, sans-serif;
   font-size: 20px;
@@ -71,7 +71,7 @@ body {
 
 a, a:visited{
   color: #32596A;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 300;
 }
  a:hover , a:active {
