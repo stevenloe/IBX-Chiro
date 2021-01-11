@@ -37,11 +37,11 @@ To run this project, install it locally using npm:
 ```
 $ cd ../site
 $ npm install
-$ gridsome develop
+$ npm run start
 ```
 
 ## Build
 
 ```
-$ gridsome build
+$ npm run build
 ```
