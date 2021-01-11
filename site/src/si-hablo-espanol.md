@@ -13,6 +13,6 @@ heroImgHeight: 0.336
 
 Sí tiene una pregunta o problema, llámeme y go pueclo ayudar.
 
-Estaba trabjando con la communicadad hispanica hasta 1997.
+Estaba trabajando con la communidad hispanica hasta 1997.
 
 <br>
