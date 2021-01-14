@@ -36,7 +36,7 @@ Office Hours
 
 
 
-M by appointment | T 9:00am to 3:00pm | W 9:00am to 5:00pm | F 9:00am to 3:00pm | S & Su by appointment for emergencies
+ M by appointment | T 9:00am to 4:00pm | W 9:00am to 4:00pm | Th 9:00am to 1:00pm |  F 12:00pm to 5:00pm 
 
 
 <p>
