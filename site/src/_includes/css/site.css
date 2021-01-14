@@ -488,7 +488,7 @@ footer>.colophon {
     padding-top: 3em;
     transition: left 0.3s ease;
     overflow: scroll;
-    border: solid 1px red;
+
   }
   nav .nav-items.active {
     left: 0px;
