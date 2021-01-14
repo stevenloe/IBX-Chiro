@@ -5,6 +5,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("src/images")
   config.addPassthroughCopy("src/js")
   config.addPassthroughCopy('src/admin')
+  config.addPassthroughCopy('src/pdf')
   
   return {
     dir: {

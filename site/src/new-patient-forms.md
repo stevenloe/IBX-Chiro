@@ -10,18 +10,18 @@ bodyImgPosition: bottom right
 heroImgHeight: 0.334
 ---
 
-Prior to your first visit, please fill out these new patient forms. They’ll help me get up to speed quickly on you and medical history. You can either fill out the forms online or download, print, and fill them out by hand.
+Prior to your first visit, *please* fill out these new patient forms. They’ll help me get up to speed quickly on you and medical history. 
+
+You can print them, fill them out by hand, or even better: *fill them out online!* You'll receive a link to the online forms with your appointment reminder.
 
 
-**Patient Information**   
-Complete patient info form online or
-download &amp; print form.
+[**Patient Information Form**](/pdf/new_patient_form_ibx_chiro.pdf) 
 
-**Patient History**   
-Complete patient history form online or
-download &amp; print form.
 
-**HIPPA**   
-Complete HIPPA form online or
-download &amp; print form.
+[**Patient History Form**](/pdf/patient_history_form_ibx_chiro.pdf)    
+
+
+[**HIPPA Form**](/pdf/hippa_form_ibx_chiro.pdf)   
+
+
 
