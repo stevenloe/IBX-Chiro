@@ -1,13 +1,13 @@
 ---
-layout: layouts/page.njk
 title:  Credits
 pageId: credits
+layout: layouts/page.njk
 heroText: Credits
-heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_44,
 heroImgPath: /v1608745883/joey-kyber-GPxgi4J82E4-unsplash-crop_fwtwdx.jpg
-bodyImg: /images/pexels-dominika-roseclay-no-background.png
-bodyImgPosition: bottom right
 heroImgHeight: 0.334
+heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_44,
+bodyImgPosition: bottom right
+bodyImg: https://res.cloudinary.com/stevenloe/image/upload/q_70/v1608679176/pexels-dominika-roseclay-no-background_m2qgr2.png
 ---
 
 

@@ -1,13 +1,13 @@
 ---
-layout: layouts/contactPage.njk
 title:  Contact Me
 pageId: contact
-heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_72,
-heroImgPath: /v1608744902/hero-contact_u814yy.jpg
+layout: layouts/contactPage.njk
 heroText: Contact Me
-bodyImg: https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_65/v1608760087/leaf-right-25-1_k1eaz2.jpg
-bodyImgPosition: bottom right
+heroImgPath: /v1608744902/hero-contact_u814yy.jpg
 heroImgHeight: 0.334
+heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_72,
+bodyImgPosition: bottom right
+bodyImg: https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_65/v1608760087/leaf-right-25-1_k1eaz2.jpg
 ---
 
 <div class="contact-wrapper">

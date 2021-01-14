@@ -1,13 +1,13 @@
 ---
-heroText: About Me
-bodyImg: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_75,w_237/v1608739476/bg-about_o66udq.jpg
+title: About Me
 pageId: about
 layout: layouts/about.njk
-title: About Me
-heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,
+heroText: About Me
 heroImgPath: /v1608738624/hero-about-hawthorn-branch-1000px_it1ut3.jpg
-bodyImgPosition: bottom right
 heroImgHeight: 0.667
+heroImgBaseURL: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,
+bodyImgPosition: bottom right
+bodyImg: https://res.cloudinary.com/stevenloe/image/upload/c_scale,e_sharpen:100,q_75,w_237/v1608739476/bg-about_o66udq.jpg
 ---
 ## I love helping people.
 
