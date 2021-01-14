@@ -485,10 +485,9 @@ footer>.colophon {
     text-align: center;
     background: #fff;
     justify-content: start;
-    padding-top: 3em;
+    padding-top: 1em;
     transition: left 0.3s ease;
     overflow: scroll;
-
   }
   nav .nav-items.active {
     left: 0px;
@@ -518,6 +517,7 @@ footer>.colophon {
 @media (max-width: 750px) {
   body {
     background-size: 4em auto;
+    font-size: 1em;
   }
   article.leafy {
     background-size: 4em auto;
@@ -557,9 +557,11 @@ footer>.colophon {
   }
 }
 
+
 @media (max-width: 500px) {
   body {
     background-size: 5em auto;
+    font-size: 1em;
   }
   article>.contact-wrapper {
     background-size: 5em auto;
@@ -643,4 +645,11 @@ footer>.colophon {
   article h1:first-of-type {
     line-height: 1.2;
   }
+}
+
+@media (max-width: 360px) {
+  nav .logo {
+    font-size: 1em;
+  }
+
 }
