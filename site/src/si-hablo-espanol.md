@@ -11,7 +11,7 @@ bodyImg: https://res.cloudinary.com/stevenloe/image/upload/e_sharpen:100,q_65/v1
 articleClass: leafy img-right
 ---
 
-Sí tiene una pregunta o problema, llámeme y go pueclo ayudar.
+Sí tiene una pregunta o problema, llamame y yo puedo ayudar.
 
 Estaba trabajando con la communidad hispanica hasta 1997.
 
