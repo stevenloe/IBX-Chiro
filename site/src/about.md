@@ -66,7 +66,7 @@ I received my Doctorate of Chiropractic from National College of Chiropractic, L
 
 I’ve worked as a chiropractor or instructor of chiropractic in Chicago, Long Beach, CA, and Hartford, CT. For more, [see my CV.](/cv/) I speak Spanish fluently.
 
-I have a longstanding connection to Pamlico county. I have family here and began visiting the area in 2009.  I’ve always enjoyed the diverse group of people who live here. The peacefulness and beauty of the area have long been a welcome break from city life. Like of many people I meet in the area, there came a point where my family and I felt it was time for a change. We moved to Oriental in 2019.
+I have a longstanding connection to Pamlico county. I have family here and began visiting the area in 2009.  I’ve always enjoyed the diverse group of people who live here. The peacefulness and beauty of the area have long been a welcome break from city life. Like many people I meet in the area, there came a point where my family and I felt it was time for a change. We moved to Oriental in 2019.
 
 In my personal time, I often read or watch a movie with my family to relax. I love to fish and spend time in the outdoors and cook. I enjoy boating with my family and generally just enjoying all that Pamlico County has to offer.
 
