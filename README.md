@@ -29,8 +29,8 @@ A jamstack site for Inner Banks Chiropractic
 ![](designs/contact.jpg)
 
 ## Technologies
-Project is created with:
 * Eleventy version: 0.11.1
+* NetlifyCMS
 	
 ## Setup
 To run this project, install it locally using npm:
