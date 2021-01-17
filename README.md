@@ -9,7 +9,7 @@
 
 
 ### General info
-A jamstack site for Inner Banks Chiropractic
+A jamstack site for Inner Banks Chiropractic   
 [Live site: Inner Banks Chiropractic](https://innerbankschiropractic.com)
 
 ### Sitemap
