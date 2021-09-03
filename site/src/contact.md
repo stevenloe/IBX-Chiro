@@ -36,7 +36,7 @@ Office Hours
 
 
 
- M by appointment | T 8:30am to 4:00pm  | W by appointment | Th 8:30am to 4:00pm  |  F 8:30am to 4:00pm 
+ M by appointment | T 8:30 am to 4:00 pm  | W by appointment | Th 8:30 am to 4:00 pm  |  F 8:30 am to 4:00 pm 
 
 
 <p>
